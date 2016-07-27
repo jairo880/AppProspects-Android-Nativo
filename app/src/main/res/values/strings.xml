@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Prospects</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_activity_prospects">Prospects</string>
+    <string name="menu_settings">menu"</string>
+
+    <!--Listado de Strings-->
+    <string name="mensaje_error_cantidad_caracteres_login">Los campos no deben estar vacios</string>
+    <string name="mensaje_error_email_invalido">El Email ingresado debe ser válido</string>
+    <string name="mensaje_error_usuario_incorrecto">El usuario o la contraseña ingresados son incorrectos</string>
+    <string name="mensaje_bienvenida">Bienvenido</string>
+    <string name="title_activity_registrarse">Registrarse</string>
+    <string name="title_activity_dll__products">Dll_Products</string>
+    <string name="mensaje_vista_registro">Vista registro</string>
+    <string name="key_email_shared_preferences">"email"</string>
+    <string name="nombre_preferencias_compartidas_preferences">"MisPreferencias"</string>
+    <string name="key_password_shared_preferences">"password"</string>
+    <string name="notificacion_existen_registros_preferencias_preferences">"El registro en preferencia està lleno"</string>
+    <string name="notificacion_no_existen_registros_preferencias_preferences">"No existe registro en preferencias"</string>
+    <string name="usuario_existente_preferencias">Su cuenta està iniciada</string>
+    <string name="email_no_encontrado">No se encontrò el email</string>
+    <string name="mensaje_logout_preferencias">Se ha cerrado sessiòn correctamente</string>
+    <string name="datos_login_necesarios">Por favor ingrese los datos</string>
+    <string name="menu_cerrar_session">Cerrar Session</string>
+
+</resources>
