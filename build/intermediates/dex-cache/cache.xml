@@ -1,2 +1,131 @@
 <?xml version="1.0" encoding="utf-8"?>
-<items version="2" />
+<items version="2" >
+
+    <item
+        jar="/Users/jairo880/AndroidStudioProjects/DirectoApp/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/24.0.0/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="3bd97cfefd783e9de1dd1c30574a6adb44b4409b">
+        <dex dex="/Users/jairo880/AndroidStudioProjects/DirectoApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-vector-drawable-24.0.0_bdf75d1600f5b44e5c8cab583975348f74ba477c/classes.dex" />
+    </item>
+    <item
+        jar="/Users/jairo880/AndroidStudioProjects/DirectoApp/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.1.1/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="6d7d803871e3203465f71a163e7af104f807b446">
+        <dex dex="/Users/jairo880/AndroidStudioProjects/DirectoApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-24.1.1_fee4181790b4fd7ef28e353a6ef40741f4c1acf8/classes.dex" />
+    </item>
+    <item
+        jar="/Users/jairo880/AndroidStudioProjects/DirectoApp/app/build/intermediates/exploded-aar/com.android.support/design/24.0.0/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="fc29308a7a8f6d4407b34634eb48fb8b817f9b23">
+        <dex dex="/Users/jairo880/AndroidStudioProjects/DirectoApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-design-24.0.0_4559e91d2aab8c250db742e2bc341d93a2382a9e/classes.dex" />
+    </item>
+    <item
+        jar="/Users/jairo880/AndroidStudioProjects/DirectoApp/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/24.1.1/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="787871951412550519b0222aba3c9df4cea49875">
+        <dex dex="/Users/jairo880/AndroidStudioProjects/DirectoApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-recyclerview-v7-24.1.1_702b18356bc0393fab5fe86a9b76d2bfcae999db/classes.dex" />
+    </item>
+    <item
+        jar="/Users/jairo880/AndroidStudioProjects/DirectoApp/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="fec9687762790f3d5eeb03b641da458adb3b1dd7">
+        <dex dex="/Users/jairo880/AndroidStudioProjects/DirectoApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_c3316c1abd7292dd6b7067c69071a852dd11e584/classes.dex" />
+    </item>
+    <item
+        jar="/Users/jairo880/AndroidStudioProjects/DirectoApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.1.0/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="d0dda274b703dd9c5bb056867649d22b4171ae7d">
+        <dex dex="/Users/jairo880/AndroidStudioProjects/DirectoApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-basement-8.1.0_a7c4d9cc8c82269047319ea940eb23968ae94981/classes.dex" />
+    </item>
+    <item
+        jar="/Users/jairo880/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/3.3.0/2b802460eea20f8f2ad9c08c74e0f14718e88aa9/okhttp-3.3.0.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="2b802460eea20f8f2ad9c08c74e0f14718e88aa9">
+        <dex dex="/Users/jairo880/AndroidStudioProjects/DirectoApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/okhttp-3.3.0_a1f7446e98e09e2b57ee1f88ca2282b0f45abd3a/classes.dex" />
+    </item>
+    <item
+        jar="/Users/jairo880/AndroidStudioProjects/DirectoApp/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.0.0/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="0874286cc2fd88d54fdf130e9d5372730da6de97">
+        <dex dex="/Users/jairo880/AndroidStudioProjects/DirectoApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-appcompat-v7-24.0.0_99e992938c073ab493ddbdc323ed22d2f669ad8d/classes.dex" />
+    </item>
+    <item
+        jar="/Users/jairo880/AndroidStudioProjects/DirectoApp/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="c6e61b6ed0e34f7f45b34aaa7997c47b0fea25d9">
+        <dex dex="/Users/jairo880/AndroidStudioProjects/DirectoApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_9dab8246715ee134d9da37b8bb05f62bdf070816/classes.dex" />
+    </item>
+    <item
+        jar="/Users/jairo880/.gradle/caches/modules-2/files-2.1/com.squareup.retrofit2/retrofit/2.1.0/2de7cd8b95b7021b1d597f049bcb422055119f2c/retrofit-2.1.0.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="2de7cd8b95b7021b1d597f049bcb422055119f2c">
+        <dex dex="/Users/jairo880/AndroidStudioProjects/DirectoApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/retrofit-2.1.0_c805d3d6e4d87bc80496cefefa57e3c39c9bd8f4/classes.dex" />
+    </item>
+    <item
+        jar="/Users/jairo880/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.8.0/5ea7af56cc7c567ed9856d99efb30740e9b17ff/okio-1.8.0.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="05ea7af56cc7c567ed9856d99efb30740e9b17ff">
+        <dex dex="/Users/jairo880/AndroidStudioProjects/DirectoApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/okio-1.8.0_1fc80f26b8efb4d6234e73a3b7d8ce586999469f/classes.dex" />
+    </item>
+    <item
+        jar="/Users/jairo880/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.6.1/b9d63507329a7178e026fc334f87587ee5070ac5/gson-2.6.1.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="b9d63507329a7178e026fc334f87587ee5070ac5">
+        <dex dex="/Users/jairo880/AndroidStudioProjects/DirectoApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/gson-2.6.1_80ae3139a8e7a66cd18529be3e9de6e33717325a/classes.dex" />
+    </item>
+    <item
+        jar="/Users/jairo880/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/24.1.1/support-annotations-24.1.1.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="3af19f153122737b372622fa6c81dd11a1c6b999">
+        <dex dex="/Users/jairo880/AndroidStudioProjects/DirectoApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-24.1.1_6e2b5c419f1d1bb7c1080ef3edcfe8dcd12e9abf/classes.dex" />
+    </item>
+    <item
+        jar="/Users/jairo880/.gradle/caches/modules-2/files-2.1/com.squareup.retrofit2/converter-gson/2.0.2/f8d87f15b94b8d74e7ccf61d7eedb558811cdb30/converter-gson-2.0.2.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="f8d87f15b94b8d74e7ccf61d7eedb558811cdb30">
+        <dex dex="/Users/jairo880/AndroidStudioProjects/DirectoApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/converter-gson-2.0.2_b4ec821d0fdc438ea0f8a043d481adc14a21d2c6/classes.dex" />
+    </item>
+    <item
+        jar="/Users/jairo880/AndroidStudioProjects/DirectoApp/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/24.0.0/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="e70f608219ed6b974644c333249ab2bb7b71de98">
+        <dex dex="/Users/jairo880/AndroidStudioProjects/DirectoApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-animated-vector-drawable-24.0.0_1af788077afd35f27e20cb3a7c690f4ffdfe9110/classes.dex" />
+    </item>
+    <item
+        jar="/Users/jairo880/AndroidStudioProjects/DirectoApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-appindexing/8.1.0/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="4477ea44f5ec5ad064022a22691732d7638ff197">
+        <dex dex="/Users/jairo880/AndroidStudioProjects/DirectoApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-appindexing-8.1.0_34277dfa48301ed25fd5b3e18ad0725dcd7b4a43/classes.dex" />
+    </item>
+    <item
+        jar="/Users/jairo880/AndroidStudioProjects/DirectoApp/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.1.1/jars/libs/internal_impl-24.1.1.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="f78c2f395cb096f9dc1dc07e729922b8fcd3c4f5">
+        <dex dex="/Users/jairo880/AndroidStudioProjects/DirectoApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.1.1_81ab6b2b043f840dd7ae43d6e120287014943ab5/classes.dex" />
+    </item>
+    <item
+        jar="/Users/jairo880/AndroidStudioProjects/DirectoApp/app/build/intermediates/exploded-aar/com.android.support/cardview-v7/24.0.0/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="8dd49930e4f9dde1a42d37e362b9fea8b1b69c0d">
+        <dex dex="/Users/jairo880/AndroidStudioProjects/DirectoApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-cardview-v7-24.0.0_844e7ec5eabbadd38db88498870ec0602d72542a/classes.dex" />
+    </item>
+
+</items>
