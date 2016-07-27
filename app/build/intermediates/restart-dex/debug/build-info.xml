@@ -4,29 +4,29 @@
     api-level="23"
     density="hdpi"
     format="7"
-    timestamp="25741311987331"
+    timestamp="26699665194698"
     token="-6219187533528709955" >
 
     <task
         name="javac"
-        duration="1261" />
+        duration="667" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="413" />
+        duration="0" />
     <task
         name="verifier"
-        duration="90" />
+        duration="0" />
 
     <artifact
-        location="/Users/jairo880/AndroidStudioProjects/DirectoApp/app/build/outputs/apk/app-debug.apk"
+        location="/Users/jairo880/AndroidStudioProjects/AppProspects-Android-Nativo/app/build/outputs/apk/app-debug.apk"
         type="MAIN" />
 
-    <build timestamp="25741311987331" >
+    <build timestamp="26699665194698" >
         <artifact
-            location="/Users/jairo880/AndroidStudioProjects/DirectoApp/app/build/outputs/apk/app-debug.apk"
+            location="/Users/jairo880/AndroidStudioProjects/AppProspects-Android-Nativo/app/build/outputs/apk/app-debug.apk"
             type="MAIN" />
     </build>
 

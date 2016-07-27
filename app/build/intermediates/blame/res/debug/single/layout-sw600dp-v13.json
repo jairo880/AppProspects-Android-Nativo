@@ -1,5 +1,9 @@
 [
     {
+        "merged": "/Users/jairo880/AndroidStudioProjects/AppProspects-Android-Nativo/app/build/intermediates/res/merged/debug/layout-sw600dp-v13/design_layout_snackbar.xml",
+        "source": "/Users/jairo880/AndroidStudioProjects/AppProspects-Android-Nativo/app/build/intermediates/exploded-aar/com.android.support/design/24.0.0/res/layout-sw600dp-v13/design_layout_snackbar.xml"
+    },
+    {
         "merged": "/Users/jairo880/AndroidStudioProjects/DirectoApp/app/build/intermediates/res/merged/debug/layout-sw600dp-v13/design_layout_snackbar.xml",
         "source": "/Users/jairo880/AndroidStudioProjects/DirectoApp/app/build/intermediates/exploded-aar/com.android.support/design/24.0.0/res/layout-sw600dp-v13/design_layout_snackbar.xml"
     }

@@ -54,8 +54,6 @@ public class ProductsActivity extends AppCompatActivity implements IProspects {
     ListViewAdapter Adapter;
     RecyclerView recyclerView;
 
-  Menu menu;
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -106,6 +104,14 @@ public class ProductsActivity extends AppCompatActivity implements IProspects {
     }
 
     @Override
+    public boolean onCreateOptionsBar(Menu menu){
+
+        getMenuInflater().inflate(R.menu.activity_main, menu);
+
+        return false;
+    }
+
+    @Override
     public void ShowProspects(final List<Prospects> prospects) {
 
         runOnUiThread(new Runnable() {
@@ -138,7 +144,6 @@ public class ProductsActivity extends AppCompatActivity implements IProspects {
 
                 recyclerView.setLayoutManager(
                         new LinearLayoutManager(ProductsActivity.this, LinearLayoutManager.VERTICAL, false));
-
 
             }
         });
