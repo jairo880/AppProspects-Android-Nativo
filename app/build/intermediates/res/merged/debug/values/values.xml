@@ -359,15 +359,13 @@
     <string name="mensaje_error_usuario_incorrecto">El usuario o la contraseña ingresados son incorrectos</string>
     <string name="mensaje_logout_preferencias">Se ha cerrado sessiòn correctamente</string>
     <string name="mensaje_vista_registro">Vista registro</string>
-    <string name="menu_cerrar_session">Cerrar Session</string>
-    <string name="menu_settings">menu"</string>
     <string name="nombre_preferencias_compartidas_preferences">"MisPreferencias"</string>
     <string name="notificacion_existen_registros_preferencias_preferences">"El registro en preferencia està lleno"</string>
     <string name="notificacion_no_existen_registros_preferencias_preferences">"No existe registro en preferencias"</string>
     <string name="status_bar_notification_info_overflow">999+</string>
     <string name="title_activity_dll__products">Dll_Products</string>
     <string name="title_activity_main">MainActivity</string>
-    <string name="title_activity_prospects">Prospects</string>
+    <string name="title_activity_products">Prospects</string>
     <string name="title_activity_registrarse">Registrarse</string>
     <string name="usuario_existente_preferencias">Su cuenta està iniciada</string>
     <style name="AlertDialog.AppCompat" parent="Base.AlertDialog.AppCompat"/>

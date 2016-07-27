@@ -2702,7 +2702,6 @@ containing a value of this type.
         public static final int fill_horizontal=0x7f0c0030;
         public static final int fill_vertical=0x7f0c0026;
         public static final int fixed=0x7f0c003c;
-        public static final int help=0x7f0c00a1;
         public static final int home=0x7f0c0004;
         public static final int homeAsUp=0x7f0c000f;
         public static final int icon=0x7f0c0046;
@@ -2729,7 +2728,6 @@ containing a value of this type.
         public static final int nameprospects=0x7f0c0096;
         public static final int navigation_header_container=0x7f0c0080;
         public static final int never=0x7f0c003a;
-        public static final int new_game=0x7f0c00a0;
         public static final int none=0x7f0c0010;
         public static final int normal=0x7f0c000c;
         public static final int parallax=0x7f0c002b;
@@ -2868,9 +2866,6 @@ containing a value of this type.
         public static final int select_dialog_singlechoice_material=0x7f040037;
         public static final int support_simple_spinner_dropdown_item=0x7f040038;
     }
-    public static final class menu {
-        public static final int activity_main=0x7f0d0000;
-    }
     public static final class mipmap {
         public static final int ic_launcher=0x7f030000;
     }
@@ -2952,17 +2947,15 @@ containing a value of this type.
         public static final int mensaje_error_usuario_incorrecto=0x7f06004b;
         public static final int mensaje_logout_preferencias=0x7f06004c;
         public static final int mensaje_vista_registro=0x7f06004d;
-        public static final int menu_cerrar_session=0x7f06004e;
-        public static final int menu_settings=0x7f06004f;
-        public static final int nombre_preferencias_compartidas_preferences=0x7f060050;
-        public static final int notificacion_existen_registros_preferencias_preferences=0x7f060051;
-        public static final int notificacion_no_existen_registros_preferencias_preferences=0x7f060052;
+        public static final int nombre_preferencias_compartidas_preferences=0x7f06004e;
+        public static final int notificacion_existen_registros_preferencias_preferences=0x7f06004f;
+        public static final int notificacion_no_existen_registros_preferencias_preferences=0x7f060050;
         public static final int status_bar_notification_info_overflow=0x7f060031;
-        public static final int title_activity_dll__products=0x7f060053;
-        public static final int title_activity_main=0x7f060054;
-        public static final int title_activity_prospects=0x7f060055;
-        public static final int title_activity_registrarse=0x7f060056;
-        public static final int usuario_existente_preferencias=0x7f060057;
+        public static final int title_activity_dll__products=0x7f060051;
+        public static final int title_activity_main=0x7f060052;
+        public static final int title_activity_products=0x7f060053;
+        public static final int title_activity_registrarse=0x7f060054;
+        public static final int usuario_existente_preferencias=0x7f060055;
     }
     public static final class style {
         public static final int AlertDialog_AppCompat=0x7f08008e;
