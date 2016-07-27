@@ -12,7 +12,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:theme="@style/AppTheme.AppBarOverlay"
-        android:background="@color/design_snackbar_background_color">
+        android:background="@color/background_material_dark">
 
         <android.support.v7.widget.Toolbar
             android:id="@+id/toolbar"

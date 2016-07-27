@@ -2,7 +2,7 @@
     <string name="app_name">Prospects</string>
     <string name="title_activity_main">MainActivity</string>
     <string name="title_activity_prospects">Prospects</string>
-    <string name="action_settings">Settings</string>
+    <string name="Cerrar_Session">Cerrar Sessiòn</string>
 
     <!--Listado de Strings-->
     <string name="mensaje_error_cantidad_caracteres_login">Los campos no deben estar vacios</string>

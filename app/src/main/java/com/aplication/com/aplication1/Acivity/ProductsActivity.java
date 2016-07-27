@@ -3,20 +3,15 @@ package com.aplication.com.aplication1.Acivity;
 import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
-import android.net.Uri;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
-import android.support.v7.widget.GridLayoutManager;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.support.v7.widget.Toolbar;
-import android.util.Log;
 import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
-import android.view.MotionEvent;
 import android.view.View;
-import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.ImageButton;
 import android.widget.ImageView;
@@ -29,9 +24,6 @@ import com.aplication.com.aplication1.Interfaces.IProspects;
 import com.aplication.com.aplication1.Models.Prospects;
 import com.aplication.com.aplication1.Presenter.ProductsPresenter;
 import com.aplication.com.aplication1.R;
-import com.google.android.gms.appindexing.Action;
-import com.google.android.gms.appindexing.AppIndex;
-import com.google.android.gms.common.api.GoogleApiClient;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -104,12 +96,29 @@ public class ProductsActivity extends AppCompatActivity implements IProspects {
     }
 
     @Override
-    public boolean onCreateOptionsBar(Menu menu){
-
-        getMenuInflater().inflate(R.menu.activity_main, menu);
-
-        return false;
+    public boolean onCreateOptionsMenu(Menu menu) {
+        MenuInflater inflater = getMenuInflater();
+        inflater.inflate(R.menu.activity_main, menu);
+        return true;
     }
+
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        int id = item.getItemId();
+
+        if (id == R.id.action_settings) {
+
+            //this.button.callOnClick();
+            finish();
+            Intent intent = new Intent(ProductsActivity.this, LoginActivity.class);
+            startActivity(intent);
+
+            return true;
+        }
+
+        return super.onOptionsItemSelected(item);
+    }
+
 
     @Override
     public void ShowProspects(final List<Prospects> prospects) {
