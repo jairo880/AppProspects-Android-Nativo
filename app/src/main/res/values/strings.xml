@@ -3,6 +3,7 @@
     <string name="title_activity_main">MainActivity</string>
     <string name="title_activity_prospects">Prospects</string>
     <string name="Cerrar_Session">Cerrar Sessiòn</string>
+    <string name="Directo_App">Directo App</string>
 
     <!--Listado de Strings-->
     <string name="mensaje_error_cantidad_caracteres_login">Los campos no deben estar vacios</string>
@@ -22,5 +23,7 @@
     <string name="mensaje_logout_preferencias">Se ha cerrado sessiòn correctamente</string>
     <string name="datos_login_necesarios">Por favor ingrese los datos</string>
     <string name="menu_cerrar_session">Cerrar Session</string>
+    <string name="Desarrollo">Tambièn en desarrollo ... :v </string>
+    <string name="carritoCompras"> Carrito de compras en desarrollo. :v</string>
 
 </resources>

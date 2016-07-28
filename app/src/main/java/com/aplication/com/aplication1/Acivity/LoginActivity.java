@@ -1,15 +1,19 @@
 package com.aplication.com.aplication1.Acivity;
 
+import android.app.ActionBar;
 import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.content.pm.ActivityInfo;
+import android.graphics.Color;
+import android.graphics.drawable.ColorDrawable;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.Gravity;
 import android.view.View;
 import android.widget.Button;
+import android.widget.CheckBox;
 import android.widget.EditText;
 import android.widget.Toast;
 
@@ -30,7 +34,7 @@ public class LoginActivity extends AppCompatActivity implements Ilogin {
     EditText CajaTextoPassword;
     Button btnRegistrarse;
     Button btnLogin;
-
+    CheckBox checkBox;
     String CorreoPruebaSharedPreference="";
     String PasswrodPruebaSharedPreference="";
 
@@ -41,6 +45,10 @@ public class LoginActivity extends AppCompatActivity implements Ilogin {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
 
+        //Hacerle set de un color al elemento Bar superior de la actividad.
+        android.support.v7.app.ActionBar bar = getSupportActionBar();
+        bar.setBackgroundDrawable(new ColorDrawable(Color.parseColor("#303030")));
+
         CajaTextoEmail = (EditText)findViewById(R.id.editText);
         CajaTextoPassword = (EditText)findViewById(R.id.editText2);
 
@@ -49,6 +57,8 @@ public class LoginActivity extends AppCompatActivity implements Ilogin {
 
         CajaTextoEmail.setText(CorreoPruebaSharedPreference);
         CajaTextoPassword.setText(PasswrodPruebaSharedPreference);
+
+        checkBox = (CheckBox) findViewById(R.id.CheckRecordarUsuario);
 
         presentadorLogin.addView(LoginActivity.this);
 
@@ -72,8 +82,11 @@ public class LoginActivity extends AppCompatActivity implements Ilogin {
                         CajaTextoEmail.setText("");
 
                     } else {
+                        Boolean recordarContraseniaBool = checkBox.isChecked();
 
-                        presentadorLogin.ValidarUsuario(CajaTextoEmail.getText().toString(), CajaTextoPassword.getText().toString());
+                        String recordarContraseniaString = String.valueOf(recordarContraseniaBool);
+
+                            presentadorLogin.ValidarUsuario(CajaTextoEmail.getText().toString(), CajaTextoPassword.getText().toString(), recordarContraseniaString);
 
                     }
 
@@ -102,10 +115,12 @@ public class LoginActivity extends AppCompatActivity implements Ilogin {
 
     }
 
+
     @Override
-    public void showClient(Cliente cliente) {
+    public void showClient(Cliente cliente, String recordarUsuario) {
 
         String email;
+
         SharedPreferences prefs = this.getSharedPreferences("Preferencias", Context.MODE_PRIVATE);
 
         SharedPreferences.Editor editor = prefs.edit();
@@ -113,6 +128,7 @@ public class LoginActivity extends AppCompatActivity implements Ilogin {
         editor.putString("authToken", cliente.getAuthoken().toString());
         editor.putString("success",cliente.getSucces().toString());
         editor.putString("password", CajaTextoPassword.getText().toString());
+        editor.putString("recordarUsuario", String.valueOf(recordarUsuario).toString());
         editor.commit();
 
         email= prefs.getString("email", "Usuario no encontrado");
@@ -140,11 +156,13 @@ public class LoginActivity extends AppCompatActivity implements Ilogin {
 
     }
 
-
-
     public void ValidarRegistrosPreferencias(){
 
         SharedPreferences prefs = this.getSharedPreferences("Preferencias", Context.MODE_PRIVATE);
+
+        if (prefs.getString("recordarUsuario", "No se encontrò el campo").equals("true")) {
+            CajaTextoEmail.setText(prefs.getString("email", ""));
+        }
 
         if (presentadorLogin.ValidarRegistrosPreferencias(prefs)){
 
@@ -153,7 +171,7 @@ public class LoginActivity extends AppCompatActivity implements Ilogin {
 
             // Toast.makeText(getApplicationContext(), R.string.usuario_existente_preferencias, Toast.LENGTH_SHORT).show();
 
-            presentadorLogin.ValidarUsuario(prefs.getString("email", "Email no encontrado en preferencias"), prefs.getString("password", "Contraseña no encontrada en preferencias"));
+            presentadorLogin.ValidarUsuario(prefs.getString("email", "Email no encontrado en preferencias"), prefs.getString("password", "Contraseña no encontrada en preferencias"), prefs.getString("recordarUsuario", "No se encontrò el campo recordar Usuario"));
 
             Intent i = new Intent(LoginActivity.this, ProductsActivity.class);
             i.putExtra("email", prefs.getString("email", getString(R.string.email_no_encontrado)).toString());

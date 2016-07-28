@@ -18,7 +18,7 @@ public interface Ilogin {
 
      void Registrarse(View view);
 
-     void showClient(Cliente cliente);
+     void showClient(Cliente cliente, String recordarUsuario);
 
      void showMessageError(String error);
 

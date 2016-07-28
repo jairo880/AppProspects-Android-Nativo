@@ -89,7 +89,7 @@ public class LoginPresenter {
     }
 
 
-    public void ValidarUsuario(final String EmailUsuario, final String PasswordUsuario) {
+    public void ValidarUsuario(final String EmailUsuario, final String PasswordUsuario, final String recordarUsuario) {
 
 
         final IServiceClient service = repositorios.retrofit.create(IServiceClient.class);
@@ -104,8 +104,11 @@ public class LoginPresenter {
 
 
                     if(response.body() != null){
-                        cathResponse(response);
+
+                        cathResponse(response ,recordarUsuario);
+
                     }else{
+
                         cathResponseError(response);
                     }
                 } catch (IOException e) {
@@ -120,11 +123,11 @@ public class LoginPresenter {
 
     }
 
-    public void cathResponse(Response<Cliente> response) {
+    public void cathResponse(Response<Cliente> response, String recordarUsuario) {
 
         if (response.message().toString().equals("OK")) {
             response.body();
-            ilogin.showClient(response.body());
+            ilogin.showClient(response.body(), recordarUsuario);
         }
 
     }
@@ -159,5 +162,6 @@ public class LoginPresenter {
         return RegistrosPreferencias;
 
     }
+
 
 }

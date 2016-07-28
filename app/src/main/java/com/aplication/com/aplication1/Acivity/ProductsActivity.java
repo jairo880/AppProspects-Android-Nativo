@@ -36,6 +36,7 @@ public class ProductsActivity extends AppCompatActivity implements IProspects {
     private ListView listView;
     private ImageView imageView;
     private TextView NombreUsuario;
+    private ImageButton imageButtonCarrito;
 
     String Email;
     ImageButton button;
@@ -53,7 +54,6 @@ public class ProductsActivity extends AppCompatActivity implements IProspects {
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
-
         productsPresenter.addView(ProductsActivity.this);
 
         final SharedPreferences prefs = this.getSharedPreferences("Preferencias", Context.MODE_PRIVATE);
@@ -63,6 +63,7 @@ public class ProductsActivity extends AppCompatActivity implements IProspects {
         imageView = (ImageView) findViewById(R.id.imageView);
         NombreUsuario = (TextView) findViewById(R.id.NombreUsuario);
         button = (ImageButton) findViewById(R.id.imageButtonlogout);
+        imageButtonCarrito = (ImageButton) findViewById(R.id.imageButton);
 
         Intent intent = getIntent();
 
@@ -78,18 +79,19 @@ public class ProductsActivity extends AppCompatActivity implements IProspects {
 
         }
 
+        imageButtonCarrito.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Toast.makeText(ProductsActivity.this, R.string.carritoCompras , Toast.LENGTH_SHORT).show();
+            }
+        });
+
         button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
 
-                SharedPreferences.Editor editor = prefs.edit();
-                editor.clear();
-                editor.commit();
+                Toast.makeText(ProductsActivity.this, R.string.Desarrollo, Toast.LENGTH_SHORT).show();
 
-                Intent intent = new Intent(ProductsActivity.this, LoginActivity.class);
-                startActivity(intent);
-
-                Toast.makeText(getApplicationContext(), R.string.mensaje_logout_preferencias, Toast.LENGTH_SHORT).show();
             }
         });
 
@@ -108,17 +110,13 @@ public class ProductsActivity extends AppCompatActivity implements IProspects {
 
         if (id == R.id.action_settings) {
 
-            //this.button.callOnClick();
-            finish();
-            Intent intent = new Intent(ProductsActivity.this, LoginActivity.class);
-            startActivity(intent);
+            Cierre_Session();
 
             return true;
         }
 
         return super.onOptionsItemSelected(item);
     }
-
 
     @Override
     public void ShowProspects(final List<Prospects> prospects) {
@@ -156,6 +154,32 @@ public class ProductsActivity extends AppCompatActivity implements IProspects {
 
             }
         });
+
+    }
+
+    public void Cierre_Session(){
+
+        final SharedPreferences prefs = this.getSharedPreferences("Preferencias", Context.MODE_PRIVATE);
+
+        SharedPreferences.Editor editor = prefs.edit();
+
+        if (prefs.getString("recordarUsuario", "No se encontrò el campo recordar usuario").equals("true")) {
+
+            editor.remove("authToken")
+                    .remove("success")
+                    .remove("password")
+                    .commit();
+
+        }else{
+
+            editor.clear().commit();
+
+        }
+
+        Toast.makeText(getApplicationContext(), R.string.mensaje_logout_preferencias, Toast.LENGTH_SHORT).show();
+
+        Intent intent = new Intent(ProductsActivity.this, LoginActivity.class);
+        startActivity(intent);
 
     }
 
