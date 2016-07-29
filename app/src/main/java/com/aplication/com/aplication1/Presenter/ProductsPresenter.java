@@ -41,6 +41,7 @@ public class ProductsPresenter {
 
                 Response<List<Prospects>> prospects = null;
                 try {
+
                     prospects = service.getProspects(authToken).execute();
 
                     ShowProspects(prospects.body());

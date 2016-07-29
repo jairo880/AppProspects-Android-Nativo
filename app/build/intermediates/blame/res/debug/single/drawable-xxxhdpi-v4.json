@@ -68,6 +68,10 @@
         "source": "/Users/jairo880/AndroidStudioProjects/AppProspects-Android-Nativo/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.0.0/res/drawable-xxxhdpi-v4/abc_scrubber_control_to_pressed_mtrl_000.png"
     },
     {
+        "merged": "/Users/jairo880/AndroidStudioProjects/AppProspects-Android-Nativo/app/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4/avatar.png",
+        "source": "/Users/jairo880/AndroidStudioProjects/AppProspects-Android-Nativo/app/src/main/res/drawable-xxxhdpi/avatar.png"
+    },
+    {
         "merged": "/Users/jairo880/AndroidStudioProjects/AppProspects-Android-Nativo/app/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4/abc_btn_check_to_on_mtrl_015.png",
         "source": "/Users/jairo880/AndroidStudioProjects/AppProspects-Android-Nativo/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.0.0/res/drawable-xxxhdpi-v4/abc_btn_check_to_on_mtrl_015.png"
     },

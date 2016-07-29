@@ -181,9 +181,15 @@ public class ProductsActivity extends AppCompatActivity implements IProspects {
         Intent intent = new Intent(ProductsActivity.this, LoginActivity.class);
         startActivity(intent);
 
+        this.finish();
+
+
     }
 
 }
+
+
+
 
 
 
