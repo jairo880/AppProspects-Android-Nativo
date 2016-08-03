@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.aplication.com.aplication1">
-    <uses-permission android:name="android.permission.INTERNET"/>
-
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"></uses-permission>
     <application
         android:allowBackup="true"
-        android:icon="@mipmap/ic_launcher"
+        android:icon="@drawable/appstore"
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
@@ -21,7 +21,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".Acivity.ProductsActivity"
+            android:name=".Acivity.ProspectsActivity"
             android:screenOrientation="portrait"
             android:label="@string/title_activity_prospects"
             android:parentActivityName=".Acivity.LoginActivity"
@@ -31,13 +31,13 @@
                 android:value=".Acivity.LoginActivity" />
         </activity>
         <activity
-            android:name=".Acivity.RegistrarseActivity"
+            android:name=".Acivity.RegistrActivity"
             android:label="@string/title_activity_registrarse"
             android:theme="@style/AppTheme.NoActionBar" />
 
         <activity
 
-            android:name=".Acivity.popupdll"
+            android:name=".Acivity.PopupDll"
             android:theme="@style/AppTheme.CustomTheme"
             />
 

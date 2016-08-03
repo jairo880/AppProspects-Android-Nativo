@@ -19,7 +19,7 @@ import android.widget.ListView;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.aplication.com.aplication1.Adaptador.ListViewAdapter;
+import com.aplication.com.aplication1.Adaptador.ProspectsAdapter;
 import com.aplication.com.aplication1.Interfaces.IProspects;
 import com.aplication.com.aplication1.Models.Prospects;
 import com.aplication.com.aplication1.Presenter.ProductsPresenter;
@@ -29,7 +29,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 
-public class ProductsActivity extends AppCompatActivity implements IProspects {
+public class ProspectsActivity extends AppCompatActivity implements IProspects {
 
     private ArrayList<String> arrayList;
     private ArrayAdapter adapter;
@@ -44,7 +44,7 @@ public class ProductsActivity extends AppCompatActivity implements IProspects {
 
     ProductsPresenter productsPresenter = new ProductsPresenter();
 
-    ListViewAdapter Adapter;
+    ProspectsAdapter Adapter;
     RecyclerView recyclerView;
 
     @Override
@@ -54,7 +54,7 @@ public class ProductsActivity extends AppCompatActivity implements IProspects {
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
-        productsPresenter.addView(ProductsActivity.this);
+        productsPresenter.addView(ProspectsActivity.this);
 
         final SharedPreferences prefs = this.getSharedPreferences("Preferencias", Context.MODE_PRIVATE);
 
@@ -82,7 +82,7 @@ public class ProductsActivity extends AppCompatActivity implements IProspects {
         imageButtonCarrito.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Toast.makeText(ProductsActivity.this, R.string.carritoCompras , Toast.LENGTH_SHORT).show();
+                Toast.makeText(ProspectsActivity.this, R.string.carritoCompras , Toast.LENGTH_SHORT).show();
             }
         });
 
@@ -90,7 +90,7 @@ public class ProductsActivity extends AppCompatActivity implements IProspects {
             @Override
             public void onClick(View view) {
 
-                Toast.makeText(ProductsActivity.this, R.string.Desarrollo, Toast.LENGTH_SHORT).show();
+                Toast.makeText(ProspectsActivity.this, R.string.Desarrollo, Toast.LENGTH_SHORT).show();
 
             }
         });
@@ -129,13 +129,13 @@ public class ProductsActivity extends AppCompatActivity implements IProspects {
                 recyclerView = (RecyclerView) findViewById(R.id.RecView);
                 recyclerView.setHasFixedSize(true);
 
-                final ListViewAdapter Adapter = new ListViewAdapter(prospects);
+                final ProspectsAdapter Adapter = new ProspectsAdapter(prospects);
 
                 Adapter.setOnClickListener(new View.OnClickListener() {
                     @Override
                     public void onClick(View v) {
 
-                        Intent intent = new Intent(ProductsActivity.this, popupdll.class);
+                        Intent intent = new Intent(ProspectsActivity.this, PopupDll.class);
                         intent.putExtra("name", prospects.get(recyclerView.getChildLayoutPosition(v)).getName());
                         intent.putExtra("surname", prospects.get(recyclerView.getChildLayoutPosition(v)).getSurname());
                         intent.putExtra("telephone", prospects.get(recyclerView.getChildLayoutPosition(v)).getTelephone());
@@ -150,7 +150,7 @@ public class ProductsActivity extends AppCompatActivity implements IProspects {
                 recyclerView.setAdapter(Adapter);
 
                 recyclerView.setLayoutManager(
-                        new LinearLayoutManager(ProductsActivity.this, LinearLayoutManager.VERTICAL, false));
+                        new LinearLayoutManager(ProspectsActivity.this, LinearLayoutManager.VERTICAL, false));
 
             }
         });
@@ -178,7 +178,7 @@ public class ProductsActivity extends AppCompatActivity implements IProspects {
 
         Toast.makeText(getApplicationContext(), R.string.mensaje_logout_preferencias, Toast.LENGTH_SHORT).show();
 
-        Intent intent = new Intent(ProductsActivity.this, LoginActivity.class);
+        Intent intent = new Intent(ProspectsActivity.this, LoginActivity.class);
         startActivity(intent);
 
         this.finish();

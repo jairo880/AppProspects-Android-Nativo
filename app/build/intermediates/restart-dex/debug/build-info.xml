@@ -4,39 +4,39 @@
     api-level="23"
     density="hdpi"
     format="7"
-    timestamp="22927799086335"
+    timestamp="13147025786054"
     token="3210015192617024023" >
 
     <task
         name="javac"
-        duration="354" />
+        duration="1375" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="69" />
+        duration="74" />
     <task
         name="verifier"
-        duration="4" />
+        duration="27" />
 
     <artifact
-        location="/Users/jairo880/AndroidStudioProjects/AppProspects-Android-Nativo/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_1/classes.dex"
+        location="/Users/jairo880/AndroidStudioProjects/AppProspects-Android-Nativo/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_6/classes.dex"
         type="DEX" />
 
-    <build timestamp="22254065381712" >
+    <build timestamp="12388619661503" >
         <artifact
-            location="/Users/jairo880/AndroidStudioProjects/AppProspects-Android-Nativo/app/build/intermediates/res/resources-debug.ap_"
-            type="RESOURCES" />
+            location="/Users/jairo880/AndroidStudioProjects/AppProspects-Android-Nativo/app/build/outputs/apk/app-debug.apk"
+            type="MAIN" />
     </build>
-    <build timestamp="22556702445547" >
-        <artifact
-            location="/Users/jairo880/AndroidStudioProjects/AppProspects-Android-Nativo/app/build/intermediates/res/resources-debug.ap_"
-            type="RESOURCES" />
-    </build>
-    <build timestamp="22927799086335" >
+    <build timestamp="12601837473264" >
         <artifact
             location="/Users/jairo880/AndroidStudioProjects/AppProspects-Android-Nativo/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_1/classes.dex"
+            type="DEX" />
+    </build>
+    <build timestamp="13147025786054" >
+        <artifact
+            location="/Users/jairo880/AndroidStudioProjects/AppProspects-Android-Nativo/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_6/classes.dex"
             type="DEX" />
     </build>
 

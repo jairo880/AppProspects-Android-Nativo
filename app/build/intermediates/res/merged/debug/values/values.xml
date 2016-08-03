@@ -364,6 +364,7 @@
     <string name="mensaje_logout_preferencias">Se ha cerrado sessiòn correctamente</string>
     <string name="mensaje_vista_registro">Vista registro</string>
     <string name="menu_cerrar_session">Cerrar Session</string>
+    <string name="noConectionManager">Se requiere conexiòn a internet para realizar esta acciòn</string>
     <string name="nombre_preferencias_compartidas_preferences">"MisPreferencias"</string>
     <string name="notificacion_existen_registros_preferencias_preferences">"El registro en preferencia està lleno"</string>
     <string name="notificacion_no_existen_registros_preferencias_preferences">"No existe registro en preferencias"</string>

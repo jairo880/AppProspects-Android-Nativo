@@ -1,25 +1,17 @@
 package com.aplication.com.aplication1.Presenter;
 
-import android.content.Context;
-import android.content.Intent;
 import android.content.SharedPreferences;
-import android.widget.Toast;
 
-import com.aplication.com.aplication1.Acivity.ProductsActivity;
 import com.aplication.com.aplication1.Interfaces.IServiceClient;
 import com.aplication.com.aplication1.Interfaces.Ilogin;
 import com.aplication.com.aplication1.Models.*;
-import com.aplication.com.aplication1.Models.Error;
-import com.aplication.com.aplication1.R;
-import com.aplication.com.aplication1.Repositiries.Repositorios;
+import com.aplication.com.aplication1.Repositirios.Repositorios;
 
-import java.io.EOFException;
 import java.io.IOException;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 import retrofit2.Response;
-import retrofit2.Retrofit;
 
 /**
  * Created by jairo880 on 13/07/16.
@@ -162,6 +154,5 @@ public class LoginPresenter {
         return RegistrosPreferencias;
 
     }
-
 
 }

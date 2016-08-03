@@ -27,7 +27,6 @@ public interface IServiceClient {
     @GET("/application/login")
     Call<Cliente> getCliente(@Query("email")String email, @Query("password")String password);
 
-
     @GET("/sch/prospects.json")
     Call<List<Prospects>> getProspects(@Header("token") String token);
 

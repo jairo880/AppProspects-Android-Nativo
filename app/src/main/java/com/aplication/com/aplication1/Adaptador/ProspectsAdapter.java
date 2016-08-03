@@ -1,30 +1,24 @@
 package com.aplication.com.aplication1.Adaptador;
 
-import android.content.ClipData;
-import android.content.Context;
-import android.support.v7.view.menu.MenuView;
 import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.BaseAdapter;
-import android.widget.ImageView;
 import android.widget.TextView;
 
 import com.aplication.com.aplication1.Models.Prospects;
 import com.aplication.com.aplication1.R;
 
-import java.util.ArrayList;
 import java.util.List;
 
-public class ListViewAdapter extends RecyclerView.Adapter<ListViewAdapter.ViewHolder> implements View.OnClickListener{
+public class ProspectsAdapter extends RecyclerView.Adapter<ProspectsAdapter.ViewHolder> implements View.OnClickListener{
 
 
     public View.OnClickListener listener;
 
     private List<Prospects> prospectos;
 
-    public ListViewAdapter(List<Prospects> prospectos) {
+    public ProspectsAdapter(List<Prospects> prospectos) {
         this.prospectos = prospectos;
     }
 

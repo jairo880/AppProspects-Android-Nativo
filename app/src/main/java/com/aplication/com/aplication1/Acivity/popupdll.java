@@ -14,14 +14,13 @@ import org.w3c.dom.Text;
 /**
  * Created by jairo880 on 22/07/16.
  */
-public class popupdll extends Activity {
+public class PopupDll extends Activity {
 
     TextView txtName;
     TextView txtSurname;
     TextView txtAddress;
     TextView txtTelephone;
     TextView txtObservation;
-
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

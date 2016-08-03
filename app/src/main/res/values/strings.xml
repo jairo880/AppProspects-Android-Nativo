@@ -25,5 +25,6 @@
     <string name="menu_cerrar_session">Cerrar Session</string>
     <string name="Desarrollo">Tambièn en desarrollo ... :v </string>
     <string name="carritoCompras"> Carrito de compras en desarrollo. :v</string>
+    <string name="noConectionManager">Se requiere conexiòn a internet para realizar esta acciòn</string>
 
 </resources>

@@ -14,9 +14,13 @@ ADDED from /Users/jairo880/AndroidStudioProjects/AppProspects-Android-Nativo/app
 		INJECTED from /Users/jairo880/AndroidStudioProjects/AppProspects-Android-Nativo/app/src/main/AndroidManifest.xml
 		INJECTED from /Users/jairo880/AndroidStudioProjects/AppProspects-Android-Nativo/app/src/main/AndroidManifest.xml
 uses-permission#android.permission.INTERNET
-ADDED from /Users/jairo880/AndroidStudioProjects/AppProspects-Android-Nativo/app/src/main/AndroidManifest.xml:4:5-66
+ADDED from /Users/jairo880/AndroidStudioProjects/AppProspects-Android-Nativo/app/src/main/AndroidManifest.xml:4:5-67
 	android:name
 		ADDED from /Users/jairo880/AndroidStudioProjects/AppProspects-Android-Nativo/app/src/main/AndroidManifest.xml:4:22-64
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from /Users/jairo880/AndroidStudioProjects/AppProspects-Android-Nativo/app/src/main/AndroidManifest.xml:5:5-95
+	android:name
+		ADDED from /Users/jairo880/AndroidStudioProjects/AppProspects-Android-Nativo/app/src/main/AndroidManifest.xml:5:22-76
 application
 ADDED from /Users/jairo880/AndroidStudioProjects/AppProspects-Android-Nativo/app/src/main/AndroidManifest.xml:6:5-50:19
 MERGED from [com.android.support:appcompat-v7:24.0.0] /Users/jairo880/AndroidStudioProjects/AppProspects-Android-Nativo/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.0.0/AndroidManifest.xml:25:5-20
@@ -48,7 +52,7 @@ MERGED from [com.android.support:cardview-v7:24.0.0] /Users/jairo880/AndroidStud
 	android:allowBackup
 		ADDED from /Users/jairo880/AndroidStudioProjects/AppProspects-Android-Nativo/app/src/main/AndroidManifest.xml:7:9-35
 	android:icon
-		ADDED from /Users/jairo880/AndroidStudioProjects/AppProspects-Android-Nativo/app/src/main/AndroidManifest.xml:8:9-43
+		ADDED from /Users/jairo880/AndroidStudioProjects/AppProspects-Android-Nativo/app/src/main/AndroidManifest.xml:8:9-42
 	android:theme
 		ADDED from /Users/jairo880/AndroidStudioProjects/AppProspects-Android-Nativo/app/src/main/AndroidManifest.xml:11:9-40
 activity#com.aplication.com.aplication1.Acivity.LoginActivity
@@ -71,7 +75,7 @@ category#android.intent.category.LAUNCHER
 ADDED from /Users/jairo880/AndroidStudioProjects/AppProspects-Android-Nativo/app/src/main/AndroidManifest.xml:20:17-77
 	android:name
 		ADDED from /Users/jairo880/AndroidStudioProjects/AppProspects-Android-Nativo/app/src/main/AndroidManifest.xml:20:27-74
-activity#com.aplication.com.aplication1.Acivity.ProductsActivity
+activity#com.aplication.com.aplication1.Acivity.ProspectsActivity
 ADDED from /Users/jairo880/AndroidStudioProjects/AppProspects-Android-Nativo/app/src/main/AndroidManifest.xml:23:9-32:20
 	android:screenOrientation
 		ADDED from /Users/jairo880/AndroidStudioProjects/AppProspects-Android-Nativo/app/src/main/AndroidManifest.xml:25:13-49
@@ -82,22 +86,22 @@ ADDED from /Users/jairo880/AndroidStudioProjects/AppProspects-Android-Nativo/app
 	android:theme
 		ADDED from /Users/jairo880/AndroidStudioProjects/AppProspects-Android-Nativo/app/src/main/AndroidManifest.xml:28:13-56
 	android:name
-		ADDED from /Users/jairo880/AndroidStudioProjects/AppProspects-Android-Nativo/app/src/main/AndroidManifest.xml:24:13-53
+		ADDED from /Users/jairo880/AndroidStudioProjects/AppProspects-Android-Nativo/app/src/main/AndroidManifest.xml:24:13-54
 meta-data#android.support.PARENT_ACTIVITY
 ADDED from /Users/jairo880/AndroidStudioProjects/AppProspects-Android-Nativo/app/src/main/AndroidManifest.xml:29:13-31:58
 	android:value
 		ADDED from /Users/jairo880/AndroidStudioProjects/AppProspects-Android-Nativo/app/src/main/AndroidManifest.xml:31:17-55
 	android:name
 		ADDED from /Users/jairo880/AndroidStudioProjects/AppProspects-Android-Nativo/app/src/main/AndroidManifest.xml:30:17-63
-activity#com.aplication.com.aplication1.Acivity.RegistrarseActivity
+activity#com.aplication.com.aplication1.Acivity.RegistrActivity
 ADDED from /Users/jairo880/AndroidStudioProjects/AppProspects-Android-Nativo/app/src/main/AndroidManifest.xml:33:9-36:59
 	android:label
 		ADDED from /Users/jairo880/AndroidStudioProjects/AppProspects-Android-Nativo/app/src/main/AndroidManifest.xml:35:13-63
 	android:theme
 		ADDED from /Users/jairo880/AndroidStudioProjects/AppProspects-Android-Nativo/app/src/main/AndroidManifest.xml:36:13-56
 	android:name
-		ADDED from /Users/jairo880/AndroidStudioProjects/AppProspects-Android-Nativo/app/src/main/AndroidManifest.xml:34:13-56
-activity#com.aplication.com.aplication1.Acivity.popupdll
+		ADDED from /Users/jairo880/AndroidStudioProjects/AppProspects-Android-Nativo/app/src/main/AndroidManifest.xml:34:13-52
+activity#com.aplication.com.aplication1.Acivity.PopupDll
 ADDED from /Users/jairo880/AndroidStudioProjects/AppProspects-Android-Nativo/app/src/main/AndroidManifest.xml:38:9-42:15
 	android:theme
 		ADDED from /Users/jairo880/AndroidStudioProjects/AppProspects-Android-Nativo/app/src/main/AndroidManifest.xml:41:13-56

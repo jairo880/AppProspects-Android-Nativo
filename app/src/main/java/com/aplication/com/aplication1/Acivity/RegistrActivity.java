@@ -11,7 +11,7 @@ import android.widget.Toast;
 
 import com.aplication.com.aplication1.R;
 
-public class RegistrarseActivity extends AppCompatActivity {
+public class RegistrActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -24,7 +24,7 @@ public class RegistrarseActivity extends AppCompatActivity {
         android.support.v7.app.ActionBar bar = getSupportActionBar();
         bar.setBackgroundDrawable(new ColorDrawable(Color.parseColor("#303030")));
 
-        Toast toast = Toast.makeText(RegistrarseActivity.this,R.string.mensaje_vista_registro , Toast.LENGTH_SHORT);
+        Toast toast = Toast.makeText(RegistrActivity.this,R.string.mensaje_vista_registro , Toast.LENGTH_SHORT);
         toast.setGravity(Gravity.BOTTOM,20,22);
         toast.show();
 
