@@ -38,21 +38,19 @@ public class LoginActivity extends AppCompatActivity implements Ilogin {
     CheckBox checkBox;
     String CorreoPruebaSharedPreference = "";
     String PasswrodPruebaSharedPreference = "";
-
     LoginPresenter presentadorLogin;
     InternetValidate internetValidate;
+    Boolean recordarContrasenia;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
 
-
         presentadorLogin = new LoginPresenter();
-        internetValidate = new InternetValidate(LoginActivity.this);
-        // TODO Validar conexiòn cada vez que se requiera hacer una peticion.
+        internetValidate = new InternetValidate();
 
-        internetValidate.isConnected(LoginActivity.this);
 
         //Hacerle set de un color al elemento Bar superior de la actividad.
         ActionBar bar = getSupportActionBar();
@@ -77,38 +75,15 @@ public class LoginActivity extends AppCompatActivity implements Ilogin {
             @Override
             public void onClick(View view) {
 
-                //TODO esta logica la debe hacer el presentador no la vista
-
-                if (presentadorLogin.validarDatosVacios(CajaTextoEmail.getText().toString(), CajaTextoPassword.getText().toString())) {
-
-                    Toast.makeText(LoginActivity.this, R.string.mensaje_error_cantidad_caracteres_login, Toast.LENGTH_SHORT).show();
-                    CajaTextoEmail.setText("");
-                    CajaTextoPassword.setText("");
+                if(internetValidate(getApplicationContext())){
+                    recordarContrasenia = checkBox.isChecked();
+                    presentadorLogin.Validar(CajaTextoEmail.getText().toString(), CajaTextoPassword.getText().toString(), recordarContrasenia);
 
                 } else {
 
-                    if (presentadorLogin.ValidarCampos(CajaTextoEmail.getText().toString(), CajaTextoPassword.getText().toString())) {
-
-                        Toast.makeText(getApplicationContext(), R.string.mensaje_error_email_invalido, Toast.LENGTH_SHORT).show();
-                        CajaTextoEmail.setText("");
-
-                    } else {
-
-                        if(internetValidate.isConnected(LoginActivity.this) != true){
-
-                            Toast.makeText(LoginActivity.this, R.string.noConectionManager, Toast.LENGTH_SHORT).show();
-
-                        } else {
-                            
-                            Boolean recordarContraseniaBool = checkBox.isChecked();
-
-                            String recordarContraseniaString = String.valueOf(recordarContraseniaBool);
-
-                            presentadorLogin.ValidarUsuario(CajaTextoEmail.getText().toString(), CajaTextoPassword.getText().toString(), recordarContraseniaString);
-                        }
-                    }
-
+                    Toast.makeText(LoginActivity.this, R.string.noConectionManager, Toast.LENGTH_SHORT).show();
                 }
+
             }
         });
 
@@ -200,5 +175,9 @@ public class LoginActivity extends AppCompatActivity implements Ilogin {
 
         }
 
+    }
+    public boolean internetValidate(Context context){
+
+        return internetValidate.isConnected(context);
     }
 }

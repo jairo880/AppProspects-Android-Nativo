@@ -1,11 +1,16 @@
 package com.aplication.com.aplication1.Presenter;
 
+import android.content.Context;
 import android.content.SharedPreferences;
+import android.widget.Toast;
 
+import com.aplication.com.aplication1.Acivity.LoginActivity;
 import com.aplication.com.aplication1.Interfaces.IServiceClient;
 import com.aplication.com.aplication1.Interfaces.Ilogin;
 import com.aplication.com.aplication1.Models.*;
+import com.aplication.com.aplication1.R;
 import com.aplication.com.aplication1.Repositirios.Repositorios;
+import com.aplication.com.aplication1.helper.InternetValidate;
 
 import java.io.IOException;
 import java.util.regex.Matcher;
@@ -18,41 +23,44 @@ import retrofit2.Response;
  */
 public class LoginPresenter {
 
+    boolean datosVacios = true;
+    String mensajeError = null;
     Ilogin ilogin;
-
+    InternetValidate internetValidate;
     Repositorios repositorios = new Repositorios();
+    LoginActivity loginActivity = new LoginActivity();
 
     public void addView(Ilogin ilogin){
 
         this.ilogin= ilogin;
     }
 
-
-    public boolean validarDatosVacios(String emailUsuario, String passwordUsuario) {
-
-        boolean DatosVacios = true;
+    public void Validar(String emailUsuario, String passwordUsuario, Boolean recordarContrasenia) {
 
         String EmailUsaurio = emailUsuario.toString().trim();
         String PasswordUsuario = passwordUsuario.toString().trim();
 
-        if (EmailUsaurio.length() < 1 || PasswordUsuario.length() < 1) {
+        if (EmailUsaurio.length() < 1 || PasswordUsuario.length() < 1 || EmailUsaurio.equals("") || PasswordUsuario.equals("")) {
 
-            if (EmailUsaurio.equals("") || PasswordUsuario.equals("")) {
 
-                DatosVacios = true;
+            mensajeError = String.valueOf(R.string.mensaje_error_cantidad_caracteres_login);
+            datosVacios = true;
 
             } else {
 
-                DatosVacios = false;
+               if(ValidarCampos(EmailUsaurio, PasswordUsuario)==false){
+
+                       Boolean recordarContraseniaBool = recordarContrasenia;
+
+                       String recordarContraseniaString = String.valueOf(recordarContraseniaBool);
+
+                       ValidarUsuario(EmailUsaurio,PasswordUsuario, recordarContraseniaString);
+
+                   }
+
+               }
+
             }
-        } else {
-
-            DatosVacios = false;
-
-        }
-
-        return DatosVacios;
-    }
 
     public boolean ValidarCampos(String EmailUsuario, String PasswordUsuario) {
 

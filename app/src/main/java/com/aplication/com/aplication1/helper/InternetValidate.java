@@ -17,6 +17,10 @@ public class InternetValidate {
         this.context = context;
     }
 
+    public InternetValidate() {
+
+    }
+
 
     public boolean isConnected(Context context) {
         ConnectivityManager connectivityManager = (ConnectivityManager) context.getSystemService(Context.CONNECTIVITY_SERVICE);

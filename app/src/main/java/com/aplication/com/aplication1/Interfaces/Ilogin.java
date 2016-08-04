@@ -1,5 +1,6 @@
 package com.aplication.com.aplication1.Interfaces;
 
+import android.content.Context;
 import android.view.View;
 
 import com.aplication.com.aplication1.Models.Cliente;
@@ -21,5 +22,7 @@ public interface Ilogin {
      void showClient(Cliente cliente, String recordarUsuario);
 
      void showMessageError(String error);
+
+     boolean internetValidate(Context context);
 
 }

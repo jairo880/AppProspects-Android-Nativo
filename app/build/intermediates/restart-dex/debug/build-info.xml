@@ -4,39 +4,46 @@
     api-level="23"
     density="hdpi"
     format="7"
-    timestamp="13147025786054"
+    timestamp="6038311383236"
     token="3210015192617024023" >
 
     <task
         name="javac"
-        duration="1375" />
+        duration="2070" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="74" />
+        duration="132" />
     <task
         name="verifier"
-        duration="27" />
+        duration="235" />
 
     <artifact
         location="/Users/jairo880/AndroidStudioProjects/AppProspects-Android-Nativo/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_6/classes.dex"
         type="DEX" />
+    <artifact
+        location="/Users/jairo880/AndroidStudioProjects/AppProspects-Android-Nativo/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_8/classes.dex"
+        type="DEX" />
+    <artifact
+        location="/Users/jairo880/AndroidStudioProjects/AppProspects-Android-Nativo/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_1/classes.dex"
+        type="DEX" />
 
-    <build timestamp="12388619661503" >
+    <build timestamp="4041943862416" >
         <artifact
             location="/Users/jairo880/AndroidStudioProjects/AppProspects-Android-Nativo/app/build/outputs/apk/app-debug.apk"
             type="MAIN" />
     </build>
-    <build timestamp="12601837473264" >
-        <artifact
-            location="/Users/jairo880/AndroidStudioProjects/AppProspects-Android-Nativo/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_1/classes.dex"
-            type="DEX" />
-    </build>
-    <build timestamp="13147025786054" >
+    <build timestamp="6038311383236" >
         <artifact
             location="/Users/jairo880/AndroidStudioProjects/AppProspects-Android-Nativo/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_6/classes.dex"
+            type="DEX" />
+        <artifact
+            location="/Users/jairo880/AndroidStudioProjects/AppProspects-Android-Nativo/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_8/classes.dex"
+            type="DEX" />
+        <artifact
+            location="/Users/jairo880/AndroidStudioProjects/AppProspects-Android-Nativo/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_1/classes.dex"
             type="DEX" />
     </build>
 

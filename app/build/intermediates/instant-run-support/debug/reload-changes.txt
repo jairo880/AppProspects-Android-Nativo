@@ -1,2 +1,8 @@
+CHANGED,/Users/jairo880/AndroidStudioProjects/AppProspects-Android-Nativo/app/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/com/aplication/com/aplication1/Acivity/LoginActivity$1$override.class
+CHANGED,/Users/jairo880/AndroidStudioProjects/AppProspects-Android-Nativo/app/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/com/aplication/com/aplication1/Presenter/LoginPresenter$override.class
+CHANGED,/Users/jairo880/AndroidStudioProjects/AppProspects-Android-Nativo/app/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/com/aplication/com/aplication1/Presenter/LoginPresenter$1$override.class
+CHANGED,/Users/jairo880/AndroidStudioProjects/AppProspects-Android-Nativo/app/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/com/aplication/com/aplication1/Acivity/LoginActivity$override.class
 CHANGED,/Users/jairo880/AndroidStudioProjects/AppProspects-Android-Nativo/app/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/com/android/tools/fd/runtime/AppPatchesLoaderImpl.class
 CHANGED,/Users/jairo880/AndroidStudioProjects/AppProspects-Android-Nativo/app/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/com/aplication/com/aplication1/helper/InternetValidate$override.class
+CHANGED,/Users/jairo880/AndroidStudioProjects/AppProspects-Android-Nativo/app/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/com/aplication/com/aplication1/Acivity/LoginActivity$3$override.class
+CHANGED,/Users/jairo880/AndroidStudioProjects/AppProspects-Android-Nativo/app/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/com/aplication/com/aplication1/Acivity/LoginActivity$2$override.class
