@@ -1,9 +1,11 @@
 package com.aplication.com.aplication1.Acivity;
 
 import android.content.Context;
+import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.os.Bundle;
+import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
@@ -161,29 +163,49 @@ public class ProspectsActivity extends AppCompatActivity implements IProspects {
 
         final SharedPreferences prefs = this.getSharedPreferences("Preferencias", Context.MODE_PRIVATE);
 
-        SharedPreferences.Editor editor = prefs.edit();
+        AlertDialog.Builder alertDialog = new AlertDialog.Builder(ProspectsActivity.this);
+        alertDialog.setTitle("Cerrar Sessiòn").setMessage("¿Està seguro que desèa cerrar la sessiòn?")
+                .setPositiveButton("Si", new DialogInterface.OnClickListener() {
+                    @Override
+                    public void onClick(DialogInterface dialogInterface, int i) {
 
-        if (prefs.getString("recordarUsuario", "No se encontrò el campo recordar usuario").equals("true")) {
 
-            editor.remove("authToken")
-                    .remove("success")
-                    .remove("password")
-                    .commit();
+                        SharedPreferences.Editor editor = prefs.edit();
 
-        }else{
+                        if (prefs.getString("recordarUsuario", "No se encontrò el campo recordar usuario").equals("true")) {
 
-            editor.clear().commit();
+                            editor.remove("authToken")
+                                    .remove("success")
+                                    .remove("password")
+                                    .apply();
 
-        }
+                        } else {
 
-        Toast.makeText(getApplicationContext(), R.string.mensaje_logout_preferencias, Toast.LENGTH_SHORT).show();
+                            editor.clear().commit();
 
+                        }
+
+                        Toast.makeText(getApplicationContext(), R.string.mensaje_logout_preferencias, Toast.LENGTH_SHORT).show();
+
+                        FinishActivity();
+
+                    }
+                })
+                .setNegativeButton("Cancelar", new DialogInterface.OnClickListener() {
+                    @Override
+                    public void onClick(DialogInterface dialogInterface, int i) {
+
+                    }
+                });
+
+        alertDialog.show();
+
+    }
+
+    public void FinishActivity(){
         Intent intent = new Intent(ProspectsActivity.this, LoginActivity.class);
         startActivity(intent);
-
         this.finish();
-
-
     }
 
 }

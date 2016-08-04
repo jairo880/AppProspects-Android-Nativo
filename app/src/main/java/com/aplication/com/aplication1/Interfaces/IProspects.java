@@ -17,5 +17,6 @@ public interface IProspects {
      boolean onCreateOptionsMenu(Menu menu);
      boolean onOptionsItemSelected(MenuItem item);
      void Cierre_Session();
+     void FinishActivity();
 
 }
