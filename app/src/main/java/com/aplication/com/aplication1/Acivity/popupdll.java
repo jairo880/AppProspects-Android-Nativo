@@ -14,7 +14,7 @@ import org.w3c.dom.Text;
 /**
  * Created by jairo880 on 22/07/16.
  */
-public class PopupDll extends Activity {
+public class popupdll extends Activity {
 
     TextView txtName;
     TextView txtSurname;

@@ -133,7 +133,7 @@ public class ProspectsActivity extends AppCompatActivity implements IProspects {
                     @Override
                     public void onClick(View v) {
 
-                        Intent intent = new Intent(ProspectsActivity.this, PopupDll.class);
+                        Intent intent = new Intent(ProspectsActivity.this, popupdll.class);
                         intent.putExtra("name", prospects.get(recyclerView.getChildLayoutPosition(v)).getName());
                         intent.putExtra("surname", prospects.get(recyclerView.getChildLayoutPosition(v)).getSurname());
                         intent.putExtra("telephone", prospects.get(recyclerView.getChildLayoutPosition(v)).getTelephone());
