@@ -39,13 +39,9 @@ public class ProspectsActivity extends AppCompatActivity implements IProspects {
     private ImageView imageView;
     private TextView NombreUsuario;
     private ImageButton imageButtonCarrito;
-
     String Email;
     ImageButton button;
-
-
     ProductsPresenter productsPresenter = new ProductsPresenter();
-
     ProspectsAdapter Adapter;
     RecyclerView recyclerView;
 
@@ -164,15 +160,15 @@ public class ProspectsActivity extends AppCompatActivity implements IProspects {
         final SharedPreferences prefs = this.getSharedPreferences("Preferencias", Context.MODE_PRIVATE);
 
         AlertDialog.Builder alertDialog = new AlertDialog.Builder(ProspectsActivity.this);
-        alertDialog.setTitle("Cerrar Sessiòn").setMessage("¿Està seguro que desèa cerrar la sessiòn?")
-                .setPositiveButton("Si", new DialogInterface.OnClickListener() {
+        alertDialog.setTitle(getString(R.string.tittle_cerrar_session)).setMessage(getString(R.string.message_cerrar_session))
+                .setPositiveButton(getString(R.string.afirmacion_alert_dialog_cerrar_session), new DialogInterface.OnClickListener() {
                     @Override
                     public void onClick(DialogInterface dialogInterface, int i) {
 
 
                         SharedPreferences.Editor editor = prefs.edit();
 
-                        if (prefs.getString("recordarUsuario", "No se encontrò el campo recordar usuario").equals("true")) {
+                        if (prefs.getString("recordarUsuario", getString(R.string.campo_recordar_contrasenia_no_encontrado)).equals("true")) {
 
                             editor.remove("authToken")
                                     .remove("success")
@@ -191,7 +187,7 @@ public class ProspectsActivity extends AppCompatActivity implements IProspects {
 
                     }
                 })
-                .setNegativeButton("Cancelar", new DialogInterface.OnClickListener() {
+                .setNegativeButton(getString(R.string.negacion_alert_dialog_cerrar_session), new DialogInterface.OnClickListener() {
                     @Override
                     public void onClick(DialogInterface dialogInterface, int i) {
 

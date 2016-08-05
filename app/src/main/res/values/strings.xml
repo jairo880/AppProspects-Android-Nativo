@@ -26,5 +26,10 @@
     <string name="Desarrollo">Tambièn en desarrollo ... :v </string>
     <string name="carritoCompras"> Carrito de compras en desarrollo. :v</string>
     <string name="noConectionManager">Se requiere conexiòn a internet para realizar esta acciòn</string>
+    <string name="campo_recordar_contrasenia_no_encontrado">No se encontrò el campo recordar contrasenia en preferencias</string>
+    <string name="tittle_cerrar_session">Cerrar Sessiòn</string>
+    <string name="message_cerrar_session">¿Està seguro que desèa cerrar la Sessiòn?</string>
+    <string name="afirmacion_alert_dialog_cerrar_session">Si</string>
+    <string name="negacion_alert_dialog_cerrar_session">No</string>
 
 </resources>

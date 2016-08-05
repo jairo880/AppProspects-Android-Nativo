@@ -4,43 +4,30 @@
     api-level="23"
     density="hdpi"
     format="7"
-    timestamp="24890260640748"
+    timestamp="6773893339417"
     token="3210015192617024023" >
 
     <task
         name="javac"
-        duration="218" />
+        duration="0" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="38" />
+        duration="0" />
     <task
         name="verifier"
-        duration="4" />
+        duration="0" />
 
     <artifact
-        location="/Users/jairo880/AndroidStudioProjects/AppProspects-Android-Nativo/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_1/classes.dex"
-        type="DEX" />
+        location="/Users/jairo880/AndroidStudioProjects/AppProspects-Android-Nativo/app/build/outputs/apk/app-debug.apk"
+        type="MAIN" />
 
-    <build timestamp="20529052650575" >
+    <build timestamp="6773893339417" >
         <artifact
             location="/Users/jairo880/AndroidStudioProjects/AppProspects-Android-Nativo/app/build/outputs/apk/app-debug.apk"
             type="MAIN" />
-    </build>
-    <build timestamp="24727485590938" >
-        <artifact
-            location="/Users/jairo880/AndroidStudioProjects/AppProspects-Android-Nativo/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_6/classes.dex"
-            type="DEX" />
-        <artifact
-            location="/Users/jairo880/AndroidStudioProjects/AppProspects-Android-Nativo/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_8/classes.dex"
-            type="DEX" />
-    </build>
-    <build timestamp="24890260640748" >
-        <artifact
-            location="/Users/jairo880/AndroidStudioProjects/AppProspects-Android-Nativo/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_1/classes.dex"
-            type="DEX" />
     </build>
 
 </instant-run>

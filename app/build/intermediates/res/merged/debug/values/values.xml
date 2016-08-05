@@ -316,11 +316,13 @@
     <string name="abc_shareactionprovider_share_with">Share with</string>
     <string name="abc_shareactionprovider_share_with_application">Share with %s</string>
     <string name="abc_toolbar_collapse_description">Collapse</string>
+    <string name="afirmacion_alert_dialog_cerrar_session">Si</string>
     <string name="app_name">Prospects</string>
     <string name="appbar_scrolling_view_behavior" translatable="false">android.support.design.widget.AppBarLayout$ScrollingViewBehavior</string>
     <string name="auth_google_play_services_client_facebook_display_name">Facebook</string>
     <string name="auth_google_play_services_client_google_display_name">Google</string>
     <string name="bottom_sheet_behavior" translatable="false">android.support.design.widget.BottomSheetBehavior</string>
+    <string name="campo_recordar_contrasenia_no_encontrado">No se encontrò el campo recordar contrasenia en preferencias</string>
     <string name="carritoCompras"> Carrito de compras en desarrollo. :v</string>
     <string name="character_counter_pattern" translatable="false">%1$d / %2$d</string>
     <string name="common_android_wear_notification_needs_update_text"><ns1:g id="app_name">%1$s</ns1:g> requires an update to the Android Wear app.</string>
@@ -364,6 +366,8 @@
     <string name="mensaje_logout_preferencias">Se ha cerrado sessiòn correctamente</string>
     <string name="mensaje_vista_registro">Vista registro</string>
     <string name="menu_cerrar_session">Cerrar Session</string>
+    <string name="message_cerrar_session">¿Està seguro que desèa cerrar la Sessiòn?</string>
+    <string name="negacion_alert_dialog_cerrar_session">No</string>
     <string name="noConectionManager">Se requiere conexiòn a internet para realizar esta acciòn</string>
     <string name="nombre_preferencias_compartidas_preferences">"MisPreferencias"</string>
     <string name="notificacion_existen_registros_preferencias_preferences">"El registro en preferencia està lleno"</string>
@@ -373,6 +377,7 @@
     <string name="title_activity_main">MainActivity</string>
     <string name="title_activity_prospects">Prospects</string>
     <string name="title_activity_registrarse">Registrarse</string>
+    <string name="tittle_cerrar_session">Cerrar Sessiòn</string>
     <string name="usuario_existente_preferencias">Su cuenta està iniciada</string>
     <style name="AlertDialog.AppCompat" parent="Base.AlertDialog.AppCompat"/>
     <style name="AlertDialog.AppCompat.Light" parent="Base.AlertDialog.AppCompat.Light"/>

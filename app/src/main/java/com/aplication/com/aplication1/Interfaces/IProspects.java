@@ -14,9 +14,13 @@ public interface IProspects {
 
 
      void ShowProspects(List<Prospects> prospects);
+
      boolean onCreateOptionsMenu(Menu menu);
+
      boolean onOptionsItemSelected(MenuItem item);
+
      void Cierre_Session();
+
      void FinishActivity();
 
 }
