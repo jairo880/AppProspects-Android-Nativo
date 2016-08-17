@@ -1,5 +1,6 @@
 package com.aplication.com.aplication1.Acivity;
 
+import android.app.ProgressDialog;
 import android.content.Context;
 import android.content.DialogInterface;
 import android.content.Intent;
@@ -44,6 +45,7 @@ public class ProspectsActivity extends AppCompatActivity implements IProspects {
     ProductsPresenter productsPresenter = new ProductsPresenter();
     ProspectsAdapter Adapter;
     RecyclerView recyclerView;
+    ProgressDialog progressDialog;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -157,6 +159,9 @@ public class ProspectsActivity extends AppCompatActivity implements IProspects {
 
     public void Cierre_Session(){
 
+        progressDialog = ProgressDialog.show(ProspectsActivity.this,getString(R.string.progress_dialog_message_prospects_cierre_session), getString(R.string.progress_dialog_message_prospects_cierre_session), true);
+        progressDialog.setCancelable(true);
+
         final SharedPreferences prefs = this.getSharedPreferences("Preferencias", Context.MODE_PRIVATE);
 
         AlertDialog.Builder alertDialog = new AlertDialog.Builder(ProspectsActivity.this);
@@ -200,6 +205,7 @@ public class ProspectsActivity extends AppCompatActivity implements IProspects {
 
     public void FinishActivity(){
         Intent intent = new Intent(ProspectsActivity.this, LoginActivity.class);
+        progressDialog.dismiss();
         startActivity(intent);
         this.finish();
     }

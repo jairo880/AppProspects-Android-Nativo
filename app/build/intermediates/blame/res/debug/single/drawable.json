@@ -56,12 +56,12 @@
         "source": "/Users/jairo880/AndroidStudioProjects/AppProspects-Android-Nativo/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.0.0/res/drawable/abc_ic_voice_search_api_material.xml"
     },
     {
-        "merged": "/Users/jairo880/AndroidStudioProjects/AppProspects-Android-Nativo/app/build/intermediates/res/merged/debug/drawable/appstore.png",
-        "source": "/Users/jairo880/AndroidStudioProjects/AppProspects-Android-Nativo/app/src/main/res/drawable/appstore.png"
-    },
-    {
         "merged": "/Users/jairo880/AndroidStudioProjects/AppProspects-Android-Nativo/app/build/intermediates/res/merged/debug/drawable/abc_item_background_holo_light.xml",
         "source": "/Users/jairo880/AndroidStudioProjects/AppProspects-Android-Nativo/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.0.0/res/drawable/abc_item_background_holo_light.xml"
+    },
+    {
+        "merged": "/Users/jairo880/AndroidStudioProjects/AppProspects-Android-Nativo/app/build/intermediates/res/merged/debug/drawable/appstore.png",
+        "source": "/Users/jairo880/AndroidStudioProjects/AppProspects-Android-Nativo/app/src/main/res/drawable/appstore.png"
     },
     {
         "merged": "/Users/jairo880/AndroidStudioProjects/AppProspects-Android-Nativo/app/build/intermediates/res/merged/debug/drawable/abc_ic_ab_back_material.xml",

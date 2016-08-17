@@ -2966,13 +2966,16 @@ containing a value of this type.
         public static final int nombre_preferencias_compartidas_preferences=0x7f050058;
         public static final int notificacion_existen_registros_preferencias_preferences=0x7f050059;
         public static final int notificacion_no_existen_registros_preferencias_preferences=0x7f05005a;
+        public static final int progress_dialog_login_tittle=0x7f05005b;
+        public static final int progress_dialog_mesagge=0x7f05005c;
+        public static final int progress_dialog_message_prospects_cierre_session=0x7f05005d;
         public static final int status_bar_notification_info_overflow=0x7f050031;
-        public static final int title_activity_dll__products=0x7f05005b;
-        public static final int title_activity_main=0x7f05005c;
-        public static final int title_activity_prospects=0x7f05005d;
-        public static final int title_activity_registrarse=0x7f05005e;
-        public static final int tittle_cerrar_session=0x7f05005f;
-        public static final int usuario_existente_preferencias=0x7f050060;
+        public static final int title_activity_dll__products=0x7f05005e;
+        public static final int title_activity_main=0x7f05005f;
+        public static final int title_activity_prospects=0x7f050060;
+        public static final int title_activity_registrarse=0x7f050061;
+        public static final int tittle_cerrar_session=0x7f050062;
+        public static final int usuario_existente_preferencias=0x7f050063;
     }
     public static final class style {
         public static final int AlertDialog_AppCompat=0x7f07008e;

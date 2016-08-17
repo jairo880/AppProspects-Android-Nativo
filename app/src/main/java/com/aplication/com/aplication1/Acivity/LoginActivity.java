@@ -1,6 +1,7 @@
 package com.aplication.com.aplication1.Acivity;
 
 import android.app.Application;
+import android.app.ProgressDialog;
 import android.content.Context;
 import android.content.DialogInterface;
 import android.content.Intent;
@@ -43,6 +44,7 @@ public class LoginActivity extends AppCompatActivity implements Ilogin {
     LoginPresenter presentadorLogin;
     InternetValidate internetValidate;
     Boolean recordarContrasenia;
+    ProgressDialog progressDialog;
 
 
     @Override
@@ -75,6 +77,9 @@ public class LoginActivity extends AppCompatActivity implements Ilogin {
             @Override
             public void onClick(View view) {
 
+                progressDialog = ProgressDialog.show(LoginActivity.this, getString(R.string.progress_dialog_login_tittle),getString(R.string.progress_dialog_mesagge), true);
+                progressDialog.setCancelable(true);
+
                 if(internetValidate(getApplicationContext())){
                     recordarContrasenia = checkBox.isChecked();
                     presentadorLogin.Validar(CajaTextoEmail.getText().toString(), CajaTextoPassword.getText().toString(), recordarContrasenia);
@@ -82,7 +87,6 @@ public class LoginActivity extends AppCompatActivity implements Ilogin {
 
                     Toast.makeText(LoginActivity.this, R.string.noConectionManager, Toast.LENGTH_SHORT).show();
                 }
-
             }
         });
 
@@ -123,6 +127,7 @@ public class LoginActivity extends AppCompatActivity implements Ilogin {
 
         Intent i = new Intent(LoginActivity.this, ProspectsActivity.class);
         i.putExtra("email", prefs.getString("email", getString(R.string.email_no_encontrado)).toString());
+        progressDialog.dismiss();
         startActivity(i);
         this.finish();
 
@@ -146,10 +151,14 @@ public class LoginActivity extends AppCompatActivity implements Ilogin {
 
     public void ValidarRegistrosPreferencias() {
 
+        progressDialog = ProgressDialog.show(LoginActivity.this, getString(R.string.progress_dialog_login_tittle),getString(R.string.progress_dialog_mesagge), true);
+        progressDialog.setCancelable(true);
+
         SharedPreferences prefs = this.getSharedPreferences("Preferencias", Context.MODE_PRIVATE);
 
         if (prefs.getString("recordarUsuario", String.valueOf(R.string.notificacion_no_existen_registros_preferencias_preferences)).equals("true")) {
             CajaTextoEmail.setText(prefs.getString("email", ""));
+            progressDialog.dismiss();
         }
 
         if (presentadorLogin.ValidarRegistrosPreferencias(prefs)) {
@@ -161,12 +170,13 @@ public class LoginActivity extends AppCompatActivity implements Ilogin {
 
             Intent i = new Intent(LoginActivity.this, ProspectsActivity.class);
             i.putExtra("email", prefs.getString("email", getString(R.string.email_no_encontrado)).toString());
+            progressDialog.dismiss();
             startActivity(i);
 
         } else {
 
             Toast.makeText(getApplicationContext(), R.string.datos_login_necesarios, Toast.LENGTH_SHORT).show();
-
+            progressDialog.dismiss();
         }
 
     }

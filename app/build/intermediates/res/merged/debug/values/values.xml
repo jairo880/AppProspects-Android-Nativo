@@ -372,6 +372,9 @@
     <string name="nombre_preferencias_compartidas_preferences">"MisPreferencias"</string>
     <string name="notificacion_existen_registros_preferencias_preferences">"El registro en preferencia està lleno"</string>
     <string name="notificacion_no_existen_registros_preferencias_preferences">"No existe registro en preferencias"</string>
+    <string name="progress_dialog_login_tittle">Cargando...</string>
+    <string name="progress_dialog_mesagge">Comprobando datos del usuario</string>
+    <string name="progress_dialog_message_prospects_cierre_session">Cerrando la Sessiòn del usuario</string>
     <string name="status_bar_notification_info_overflow">999+</string>
     <string name="title_activity_dll__products">Dll_Products</string>
     <string name="title_activity_main">MainActivity</string>
