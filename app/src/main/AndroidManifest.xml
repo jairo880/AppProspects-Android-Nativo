@@ -37,7 +37,7 @@
 
         <activity
 
-            android:name=".Acivity.PopupDll"
+            android:name=".Acivity.popupdll"
             android:theme="@style/AppTheme.CustomTheme"
             />
 

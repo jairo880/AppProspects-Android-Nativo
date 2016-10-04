@@ -23,7 +23,7 @@ public class ProspectsAdapter extends RecyclerView.Adapter<ProspectsAdapter.View
     }
 
 
-    public static class ViewHolder extends RecyclerView.ViewHolder {
+    public  class ViewHolder extends RecyclerView.ViewHolder {
 
         //Esta es la clase que contendrà el ViewHolder que a su vez contendrà un constructor encardado de encontrar los
         //elementos que se van a inflar en nuestra vista por medio del ID, esto se hace una sola vez ya que por eso se

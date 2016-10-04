@@ -49,5 +49,6 @@
     <string msgid="2201289642219771610" name="common_google_play_services_updating_text">"ಪ್ರಸ್ತುತ ನವೀಕರಿಸಲಾಗುತ್ತಿರುವ <ns1:g id="APP_NAME">%1$s</ns1:g>, Google Play ಸೇವೆಗಳಿಲ್ಲದೆ ರನ್ ಆಗುವುದಿಲ್ಲ."</string>
     <string msgid="815008177440683245" name="common_google_play_services_updating_title">"Google Play ಸೇವೆಗಳನ್ನು ನವೀಕರಿಸಲಾಗುತ್ತಿದೆ"</string>
     <string msgid="411506735369601515" name="common_open_on_phone">"ಫೋನ್‌ನಲ್ಲಿ ತೆರೆಯಿರಿ"</string>
+    <string msgid="146198913615257606" name="search_menu_title">"ಹುಡುಕು"</string>
     <string msgid="2869576371154716097" name="status_bar_notification_info_overflow">"999+"</string>
 </resources>

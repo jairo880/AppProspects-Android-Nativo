@@ -1,38 +1,36 @@
 <?xml version="1.0" encoding="utf-8"?>
 <instant-run
-    abi="x86"
     api-level="23"
     density="hdpi"
-    format="7"
-    timestamp="90398346541288"
-    token="3210015192617024023" >
+    format="8"
+    plugin-version="2.2.0"
+    timestamp="23050097191272"
+    token="3210015192617024023"
+    verifier="FULL_BUILD_REQUESTED" >
 
     <task
         name="javac"
-        duration="0" />
+        duration="1827" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="0" />
+        duration="1266" />
     <task
         name="verifier"
-        duration="0" />
+        duration="63" />
 
     <artifact
-        location="/Users/jairo880/AndroidStudioProjects/AppProspects-Android-Nativo/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_1/classes.dex"
-        type="DEX" />
+        location="/Users/jairo880/AndroidStudioProjects/AppProspects-Android-Nativo/app/build/outputs/apk/app-debug.apk"
+        type="MAIN" />
 
-    <build timestamp="90086714325052" >
+    <build
+        timestamp="23050097191272"
+        verifier="FULL_BUILD_REQUESTED" >
         <artifact
             location="/Users/jairo880/AndroidStudioProjects/AppProspects-Android-Nativo/app/build/outputs/apk/app-debug.apk"
             type="MAIN" />
-    </build>
-    <build timestamp="90398346541288" >
-        <artifact
-            location="/Users/jairo880/AndroidStudioProjects/AppProspects-Android-Nativo/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_1/classes.dex"
-            type="DEX" />
     </build>
 
 </instant-run>

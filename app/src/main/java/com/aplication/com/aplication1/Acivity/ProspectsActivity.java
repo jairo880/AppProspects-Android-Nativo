@@ -15,34 +15,26 @@ import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.view.View;
-import android.widget.ArrayAdapter;
 import android.widget.ImageButton;
 import android.widget.ImageView;
-import android.widget.ListView;
 import android.widget.TextView;
 import android.widget.Toast;
-
 import com.aplication.com.aplication1.Adaptador.ProspectsAdapter;
 import com.aplication.com.aplication1.Interfaces.IProspects;
 import com.aplication.com.aplication1.Models.Prospects;
 import com.aplication.com.aplication1.Presenter.ProductsPresenter;
 import com.aplication.com.aplication1.R;
-
-import java.util.ArrayList;
 import java.util.List;
 
 
 public class ProspectsActivity extends AppCompatActivity implements IProspects {
 
-    private ArrayList<String> arrayList;
-    private ArrayAdapter adapter;
-    private ListView listView;
     private ImageView imageView;
     private TextView NombreUsuario;
     private ImageButton imageButtonCarrito;
     String Email;
     ImageButton button;
-    ProductsPresenter productsPresenter = new ProductsPresenter();
+    ProductsPresenter productsPresenter;
     ProspectsAdapter Adapter;
     RecyclerView recyclerView;
     ProgressDialog progressDialog;
@@ -53,6 +45,8 @@ public class ProspectsActivity extends AppCompatActivity implements IProspects {
         setContentView(R.layout.activity_products);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
+
+        productsPresenter = new ProductsPresenter();
 
         productsPresenter.addView(ProspectsActivity.this);
 
@@ -86,6 +80,11 @@ public class ProspectsActivity extends AppCompatActivity implements IProspects {
             }
         });
 
+        btnCarInfo();
+
+    }
+
+    private void btnCarInfo() {
         button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -94,7 +93,6 @@ public class ProspectsActivity extends AppCompatActivity implements IProspects {
 
             }
         });
-
     }
 
     @Override

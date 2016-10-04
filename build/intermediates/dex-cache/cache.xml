@@ -1,2 +1,248 @@
 <?xml version="1.0" encoding="utf-8"?>
-<items version="2" />
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="/Users/jairo880/AndroidStudioProjects/AppProspects-Android-Nativo/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="45f5eda279825ff470e3f51019d374d1ef61e000">
+        <dex dex="/Users/jairo880/AndroidStudioProjects/AppProspects-Android-Nativo/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-24.2.0_146cf614fcf73288be122527e9c0d8e18a2d94d5/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/jairo880/AndroidStudioProjects/AppProspects-Android-Nativo/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/24.2.0/jars/libs/internal_impl-24.2.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="045be695d968dd707691cc55d23746dbf8cf569a">
+        <dex dex="/Users/jairo880/AndroidStudioProjects/AppProspects-Android-Nativo/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.0_47acdecadd5f275b1d5fddc99c7d1b00ab16492c/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/jairo880/.gradle/caches/modules-2/files-2.1/com.squareup.retrofit2/converter-gson/2.0.2/f8d87f15b94b8d74e7ccf61d7eedb558811cdb30/converter-gson-2.0.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="f8d87f15b94b8d74e7ccf61d7eedb558811cdb30">
+        <dex dex="/Users/jairo880/AndroidStudioProjects/AppProspects-Android-Nativo/app/build/intermediates/transforms/dex/debug/folders/1000/10/converter-gson-2.0.2_b4ec821d0fdc438ea0f8a043d481adc14a21d2c6/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/jairo880/AndroidStudioProjects/AppProspects-Android-Nativo/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="e7f3132168957eefc46229fc32c3bd464642b71e">
+        <dex dex="/Users/jairo880/AndroidStudioProjects/AppProspects-Android-Nativo/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-ui-24.2.1_7cf95c37240cf563701ddf0f1af683bc98b62f56/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/jairo880/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/3.3.0/2b802460eea20f8f2ad9c08c74e0f14718e88aa9/okhttp-3.3.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="2b802460eea20f8f2ad9c08c74e0f14718e88aa9">
+        <dex dex="/Users/jairo880/AndroidStudioProjects/AppProspects-Android-Nativo/app/build/intermediates/transforms/dex/debug/folders/1000/10/okhttp-3.3.0_a1f7446e98e09e2b57ee1f88ca2282b0f45abd3a/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/jairo880/AndroidStudioProjects/AppProspects-Android-Nativo/app/build/intermediates/exploded-aar/com.android.support/support-compat/24.2.1/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="7e4389bd133359a2ff88623ff1e4ff93d6e6f780">
+        <dex dex="/Users/jairo880/AndroidStudioProjects/AppProspects-Android-Nativo/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.1_a7f1ca4c683424517cf77c9e8118ba169d47b930/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/jairo880/AndroidStudioProjects/AppProspects-Android-Nativo/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/24.2.0/jars/libs/internal_impl-24.2.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="60d7b23621d31e6f42f4f76f16af467e57a20cda">
+        <dex dex="/Users/jairo880/AndroidStudioProjects/AppProspects-Android-Nativo/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.0_9ad086af7f53b76dbe41aeb1e2432c2d279e2652/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/jairo880/AndroidStudioProjects/AppProspects-Android-Nativo/app/build/intermediates/exploded-aar/com.android.support/cardview-v7/24.0.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="8dd49930e4f9dde1a42d37e362b9fea8b1b69c0d">
+        <dex dex="/Users/jairo880/AndroidStudioProjects/AppProspects-Android-Nativo/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-cardview-v7-24.0.0_22d7382c1e47a23166ccffee6c502509ef5ccec9/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/jairo880/AndroidStudioProjects/AppProspects-Android-Nativo/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/24.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="fcc945a86ebcbf527429acb8216ec7dae2c06417">
+        <dex dex="/Users/jairo880/AndroidStudioProjects/AppProspects-Android-Nativo/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-utils-24.2.0_aec986c7313702729c618bf9ddaca85e48555b3c/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/jairo880/AndroidStudioProjects/AppProspects-Android-Nativo/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-appindexing/8.1.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="4477ea44f5ec5ad064022a22691732d7638ff197">
+        <dex dex="/Users/jairo880/AndroidStudioProjects/AppProspects-Android-Nativo/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-appindexing-8.1.0_88c6e9f190ce974d0a81408b6926a352ca6a0913/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/jairo880/AndroidStudioProjects/AppProspects-Android-Nativo/app/build/intermediates/exploded-aar/com.android.support/support-compat/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="0ecb4b595fa0f0f8018a149ace3ea6525624f94e">
+        <dex dex="/Users/jairo880/AndroidStudioProjects/AppProspects-Android-Nativo/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-compat-24.2.1_0d74bac9663b6795ec6927c53bb756fadce9e1e2/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/jairo880/.gradle/caches/modules-2/files-2.1/com.squareup.retrofit2/retrofit/2.1.0/2de7cd8b95b7021b1d597f049bcb422055119f2c/retrofit-2.1.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="2de7cd8b95b7021b1d597f049bcb422055119f2c">
+        <dex dex="/Users/jairo880/AndroidStudioProjects/AppProspects-Android-Nativo/app/build/intermediates/transforms/dex/debug/folders/1000/10/retrofit-2.1.0_c805d3d6e4d87bc80496cefefa57e3c39c9bd8f4/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/jairo880/AndroidStudioProjects/AppProspects-Android-Nativo/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/24.2.1/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="867dad63c33388ff8c7644b236579355036d075f">
+        <dex dex="/Users/jairo880/AndroidStudioProjects/AppProspects-Android-Nativo/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.1_6284caace4d0c5c3c41426a53bf8338707fb1e61/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/jairo880/AndroidStudioProjects/AppProspects-Android-Nativo/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/24.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="6eb9107eb34d2fe2b020662b7fbbec991dcba846">
+        <dex dex="/Users/jairo880/AndroidStudioProjects/AppProspects-Android-Nativo/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-media-compat-24.2.0_0130042f254ae18b91d874f097ed7b36430f11cc/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/jairo880/AndroidStudioProjects/AppProspects-Android-Nativo/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="f76c0a09e00a67d2aaccacd6deafed8f84265c9c">
+        <dex dex="/Users/jairo880/AndroidStudioProjects/AppProspects-Android-Nativo/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_efd2ce53de7b22696ead30fd3678313f7d2c04ef/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/jairo880/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.6.1/b9d63507329a7178e026fc334f87587ee5070ac5/gson-2.6.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="b9d63507329a7178e026fc334f87587ee5070ac5">
+        <dex dex="/Users/jairo880/AndroidStudioProjects/AppProspects-Android-Nativo/app/build/intermediates/transforms/dex/debug/folders/1000/10/gson-2.6.1_80ae3139a8e7a66cd18529be3e9de6e33717325a/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/jairo880/AndroidStudioProjects/AppProspects-Android-Nativo/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="c3c638be6e650b165ab9ae144857b64e82787fad">
+        <dex dex="/Users/jairo880/AndroidStudioProjects/AppProspects-Android-Nativo/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-appcompat-v7-24.2.0_904eb42f9ddd52675549b3a386235fee10e28480/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/jairo880/AndroidStudioProjects/AppProspects-Android-Nativo/app/build/intermediates/exploded-aar/com.android.support/support-fragment/24.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="d8bd2268fdcbfd52c76ade65d9900cd8def93a44">
+        <dex dex="/Users/jairo880/AndroidStudioProjects/AppProspects-Android-Nativo/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-fragment-24.2.0_0dde695bb80b84657b3566ed167f7372fc88b503/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/jairo880/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/24.2.1/support-annotations-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="8de3aafecbdf98a61db6427f008f2d515bcd2544">
+        <dex dex="/Users/jairo880/AndroidStudioProjects/AppProspects-Android-Nativo/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-24.2.1_7d32952d8d9c42cac1abce54db1809b52b3521bd/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/jairo880/AndroidStudioProjects/AppProspects-Android-Nativo/app/build/intermediates/exploded-aar/com.android.support/design/24.0.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="fc29308a7a8f6d4407b34634eb48fb8b817f9b23">
+        <dex dex="/Users/jairo880/AndroidStudioProjects/AppProspects-Android-Nativo/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-design-24.0.0_66c328904b2407085b7d531a167e0a668b08c5ce/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/jairo880/AndroidStudioProjects/AppProspects-Android-Nativo/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="ddd4c33bfe49b9c7e3de53457213bdb62b5e105d">
+        <dex dex="/Users/jairo880/AndroidStudioProjects/AppProspects-Android-Nativo/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_200491514b9940834544ba6557fcacaa0e557be2/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/jairo880/AndroidStudioProjects/AppProspects-Android-Nativo/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/24.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="f3ee23ef25c9a8fe3d40246d0b7097267963a612">
+        <dex dex="/Users/jairo880/AndroidStudioProjects/AppProspects-Android-Nativo/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-animated-vector-drawable-24.2.0_64d15dd62e3f7a60eba3de84ff51a982e28aacec/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/jairo880/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.8.0/5ea7af56cc7c567ed9856d99efb30740e9b17ff/okio-1.8.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="05ea7af56cc7c567ed9856d99efb30740e9b17ff">
+        <dex dex="/Users/jairo880/AndroidStudioProjects/AppProspects-Android-Nativo/app/build/intermediates/transforms/dex/debug/folders/1000/10/okio-1.8.0_1fc80f26b8efb4d6234e73a3b7d8ce586999469f/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/jairo880/AndroidStudioProjects/AppProspects-Android-Nativo/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="7521486d9bfd2cd9e756e0cf75ed7d97f2ce2d3b">
+        <dex dex="/Users/jairo880/AndroidStudioProjects/AppProspects-Android-Nativo/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-recyclerview-v7-24.2.1_28641692d3d6e2685beb7f2369679e2c225fc100/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/jairo880/AndroidStudioProjects/AppProspects-Android-Nativo/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.1.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="d0dda274b703dd9c5bb056867649d22b4171ae7d">
+        <dex dex="/Users/jairo880/AndroidStudioProjects/AppProspects-Android-Nativo/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-basement-8.1.0_d92a9fda50b5517954aa51874bd7e84426992a1f/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/jairo880/AndroidStudioProjects/AppProspects-Android-Nativo/app/build/intermediates/exploded-aar/com.android.support/support-fragment/24.2.0/jars/libs/internal_impl-24.2.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="032a4b53def5e2ceedfc2e793b126c0163cfa1dd">
+        <dex dex="/Users/jairo880/AndroidStudioProjects/AppProspects-Android-Nativo/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.0_901e492e14e93e511085544dab10115dee089bff/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/jairo880/AndroidStudioProjects/AppProspects-Android-Nativo/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/24.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="beac40bcc8a320a896dd15f5109cfcaea5e1e0e3">
+        <dex dex="/Users/jairo880/AndroidStudioProjects/AppProspects-Android-Nativo/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-vector-drawable-24.2.0_0c36f4afb2d0866f01369994ed466001e37361fc/classes.dex" />
+    </item>
+
+</items>

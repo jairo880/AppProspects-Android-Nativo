@@ -43,7 +43,7 @@
             android:label="@string/title_activity_registrarse"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name="com.aplication.com.aplication1.Acivity.PopupDll"
+            android:name="com.aplication.com.aplication1.Acivity.popupdll"
             android:theme="@style/AppTheme.CustomTheme" />
 
         <!--
