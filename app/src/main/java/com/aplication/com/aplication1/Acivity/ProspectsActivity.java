@@ -56,8 +56,8 @@ public class ProspectsActivity extends AppCompatActivity implements IProspects {
 
         imageView = (ImageView) findViewById(R.id.imageView);
         NombreUsuario = (TextView) findViewById(R.id.NombreUsuario);
-        button = (ImageButton) findViewById(R.id.imageButtonlogout);
-        imageButtonCarrito = (ImageButton) findViewById(R.id.imageButton);
+       // button = (ImageButton) findViewById(R.id.imageButtonlogout);
+       // imageButtonCarrito = (ImageButton) findViewById(R.id.imageButton);
 
         Intent intent = getIntent();
 
@@ -73,27 +73,29 @@ public class ProspectsActivity extends AppCompatActivity implements IProspects {
 
         }
 
-        imageButtonCarrito.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Toast.makeText(ProspectsActivity.this, R.string.carritoCompras , Toast.LENGTH_SHORT).show();
-            }
-        });
-
-        btnCarInfo();
+        //setListenersButtons();
 
     }
 
-    private void btnCarInfo() {
-        button.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
+//    private void setListenersButtons() {//
 
-                Toast.makeText(ProspectsActivity.this, R.string.Desarrollo, Toast.LENGTH_SHORT).show();
+//        imageButtonCarrito.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View view) {
+//                Toast.makeText(ProspectsActivity.this, R.string.carritoCompras , Toast.LENGTH_SHORT).show();
+//            }
+//        });
 
-            }
-        });
-    }
+//        button.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View view) {
+//
+//                Toast.makeText(ProspectsActivity.this, R.string.Desarrollo, Toast.LENGTH_SHORT).show();
+//
+//            }
+//        });
+
+//    }
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {

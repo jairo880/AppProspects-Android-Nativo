@@ -1,6 +1,6 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/jairo880/AndroidStudioProjects/AppProspects-Android-Nativo/app/src/main/AndroidManifest.xml:2:1-52:12
+ADDED from /Users/jairo880/AndroidStudioProjects/AppProspects-Android-Nativo/app/src/main/AndroidManifest.xml:2:1-48:12
 	package
 		ADDED from /Users/jairo880/AndroidStudioProjects/AppProspects-Android-Nativo/app/src/main/AndroidManifest.xml:3:5-45
 		INJECTED from /Users/jairo880/AndroidStudioProjects/AppProspects-Android-Nativo/app/src/main/AndroidManifest.xml
@@ -22,7 +22,7 @@ ADDED from /Users/jairo880/AndroidStudioProjects/AppProspects-Android-Nativo/app
 	android:name
 		ADDED from /Users/jairo880/AndroidStudioProjects/AppProspects-Android-Nativo/app/src/main/AndroidManifest.xml:5:22-76
 application
-ADDED from /Users/jairo880/AndroidStudioProjects/AppProspects-Android-Nativo/app/src/main/AndroidManifest.xml:6:5-50:19
+ADDED from /Users/jairo880/AndroidStudioProjects/AppProspects-Android-Nativo/app/src/main/AndroidManifest.xml:6:5-46:19
 MERGED from [com.android.support:design:24.0.0] /Users/jairo880/AndroidStudioProjects/AppProspects-Android-Nativo/app/build/intermediates/exploded-aar/com.android.support/design/24.0.0/AndroidManifest.xml:22:5-20
 MERGED from [com.android.support:support-v4:24.2.0] /Users/jairo880/AndroidStudioProjects/AppProspects-Android-Nativo/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.2.0/AndroidManifest.xml:25:5-20
 MERGED from [com.android.support:support-compat:24.2.1] /Users/jairo880/AndroidStudioProjects/AppProspects-Android-Nativo/app/build/intermediates/exploded-aar/com.android.support/support-compat/24.2.1/AndroidManifest.xml:25:5-20
@@ -84,27 +84,19 @@ ADDED from /Users/jairo880/AndroidStudioProjects/AppProspects-Android-Nativo/app
 		ADDED from /Users/jairo880/AndroidStudioProjects/AppProspects-Android-Nativo/app/src/main/AndroidManifest.xml:31:17-55
 	android:name
 		ADDED from /Users/jairo880/AndroidStudioProjects/AppProspects-Android-Nativo/app/src/main/AndroidManifest.xml:30:17-63
-activity#com.aplication.com.aplication1.Acivity.RegistrActivity
-ADDED from /Users/jairo880/AndroidStudioProjects/AppProspects-Android-Nativo/app/src/main/AndroidManifest.xml:33:9-36:59
-	android:label
-		ADDED from /Users/jairo880/AndroidStudioProjects/AppProspects-Android-Nativo/app/src/main/AndroidManifest.xml:35:13-63
-	android:theme
-		ADDED from /Users/jairo880/AndroidStudioProjects/AppProspects-Android-Nativo/app/src/main/AndroidManifest.xml:36:13-56
-	android:name
-		ADDED from /Users/jairo880/AndroidStudioProjects/AppProspects-Android-Nativo/app/src/main/AndroidManifest.xml:34:13-52
 activity#com.aplication.com.aplication1.Acivity.popupdll
-ADDED from /Users/jairo880/AndroidStudioProjects/AppProspects-Android-Nativo/app/src/main/AndroidManifest.xml:38:9-42:15
+ADDED from /Users/jairo880/AndroidStudioProjects/AppProspects-Android-Nativo/app/src/main/AndroidManifest.xml:34:9-38:15
 	android:theme
-		ADDED from /Users/jairo880/AndroidStudioProjects/AppProspects-Android-Nativo/app/src/main/AndroidManifest.xml:41:13-56
+		ADDED from /Users/jairo880/AndroidStudioProjects/AppProspects-Android-Nativo/app/src/main/AndroidManifest.xml:37:13-56
 	android:name
-		ADDED from /Users/jairo880/AndroidStudioProjects/AppProspects-Android-Nativo/app/src/main/AndroidManifest.xml:40:13-45
+		ADDED from /Users/jairo880/AndroidStudioProjects/AppProspects-Android-Nativo/app/src/main/AndroidManifest.xml:36:13-45
 meta-data#com.google.android.gms.version
-ADDED from /Users/jairo880/AndroidStudioProjects/AppProspects-Android-Nativo/app/src/main/AndroidManifest.xml:47:9-49:69
+ADDED from /Users/jairo880/AndroidStudioProjects/AppProspects-Android-Nativo/app/src/main/AndroidManifest.xml:43:9-45:69
 MERGED from [com.google.android.gms:play-services-basement:8.1.0] /Users/jairo880/AndroidStudioProjects/AppProspects-Android-Nativo/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.1.0/AndroidManifest.xml:21:9-23:69
 	android:value
-		ADDED from /Users/jairo880/AndroidStudioProjects/AppProspects-Android-Nativo/app/src/main/AndroidManifest.xml:49:13-66
+		ADDED from /Users/jairo880/AndroidStudioProjects/AppProspects-Android-Nativo/app/src/main/AndroidManifest.xml:45:13-66
 	android:name
-		ADDED from /Users/jairo880/AndroidStudioProjects/AppProspects-Android-Nativo/app/src/main/AndroidManifest.xml:48:13-58
+		ADDED from /Users/jairo880/AndroidStudioProjects/AppProspects-Android-Nativo/app/src/main/AndroidManifest.xml:44:13-58
 uses-sdk
 INJECTED from /Users/jairo880/AndroidStudioProjects/AppProspects-Android-Nativo/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 MERGED from [com.android.support:design:24.0.0] /Users/jairo880/AndroidStudioProjects/AppProspects-Android-Nativo/app/build/intermediates/exploded-aar/com.android.support/design/24.0.0/AndroidManifest.xml:20:5-43

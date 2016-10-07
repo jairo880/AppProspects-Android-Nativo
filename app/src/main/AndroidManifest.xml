@@ -30,10 +30,6 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".Acivity.LoginActivity" />
         </activity>
-        <activity
-            android:name=".Acivity.RegistrActivity"
-            android:label="@string/title_activity_registrarse"
-            android:theme="@style/AppTheme.NoActionBar" />
 
         <activity
 

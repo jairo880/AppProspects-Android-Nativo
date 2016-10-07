@@ -12,7 +12,7 @@
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="50dp"
+        android:layout_height="90dp"
         android:orientation="horizontal"
         android:background="@color/background_floating_material_dark">
 
@@ -27,43 +27,43 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:id="@+id/NombreUsuario"
-            android:textSize="18dp"
+            android:textSize="19dp"
             android:text="directoœdirecto.com"
             android:layout_weight="0.25"
             android:textColor="@color/abc_primary_text_material_dark" />
 
     </LinearLayout>
 
+    <!--<LinearLayout-->
+        <!--android:orientation="horizontal"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:background="@color/background_floating_material_dark">-->
+
+        <!--<ImageButton-->
+            <!--android:layout_width="30dp"-->
+            <!--android:layout_height="30dp"-->
+            <!--android:id="@+id/imageButton"-->
+            <!--android:layout_marginTop="10dp"-->
+            <!--android:layout_marginBottom="10dp"-->
+            <!--android:layout_marginLeft="50dp"-->
+            <!--android:src="@drawable/bag" />-->
+
+        <!--<ImageButton-->
+            <!--android:layout_width="30dp"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:id="@+id/imageButtonlogout"-->
+            <!--android:src="@drawable/more"-->
+            <!--android:layout_marginLeft="180dp"-->
+            <!--android:background="@color/background_floating_material_dark"-->
+            <!--android:layout_marginTop="10dp" />-->
+
+
+    <!--</LinearLayout>-->
+
     <LinearLayout
-        android:orientation="horizontal"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:background="@color/background_floating_material_dark">
-
-        <ImageButton
-            android:layout_width="30dp"
-            android:layout_height="30dp"
-            android:id="@+id/imageButton"
-            android:layout_marginTop="10dp"
-            android:layout_marginBottom="10dp"
-            android:layout_marginLeft="50dp"
-            android:src="@drawable/bag" />
-
-        <ImageButton
-            android:layout_width="30dp"
-            android:layout_height="wrap_content"
-            android:id="@+id/imageButtonlogout"
-            android:src="@drawable/more"
-            android:layout_marginLeft="180dp"
-            android:background="@color/background_floating_material_dark"
-            android:layout_marginTop="10dp" />
-
-
-    </LinearLayout>
-
-    <LinearLayout
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_height="match_parent"
         android:orientation="horizontal">
 
         <android.support.v7.widget.RecyclerView

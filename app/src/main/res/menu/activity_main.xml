@@ -4,8 +4,6 @@
     xmlns:app="http://schemas.android.com/apk/res-auto">
 
     <item android:id="@+id/action_settings"
-        android:title="@string/Cerrar_Session"
-        android:orderInCategory="100"
-        app:showAsAction="never"/>
+        android:title="@string/Cerrar_Session" />
 
 </menu>

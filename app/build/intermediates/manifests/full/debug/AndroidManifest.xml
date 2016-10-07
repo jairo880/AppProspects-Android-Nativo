@@ -39,10 +39,6 @@
                 android:value=".Acivity.LoginActivity" />
         </activity>
         <activity
-            android:name="com.aplication.com.aplication1.Acivity.RegistrActivity"
-            android:label="@string/title_activity_registrarse"
-            android:theme="@style/AppTheme.NoActionBar" />
-        <activity
             android:name="com.aplication.com.aplication1.Acivity.popupdll"
             android:theme="@style/AppTheme.CustomTheme" />
 

@@ -36,12 +36,12 @@
         "source": "/Users/jairo880/AndroidStudioProjects/AppProspects-Android-Nativo/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.0/res/layout/abc_action_bar_up_container.xml"
     },
     {
-        "merged": "/Users/jairo880/AndroidStudioProjects/AppProspects-Android-Nativo/app/build/intermediates/res/merged/debug/layout/abc_popup_menu_header_item_layout.xml",
-        "source": "/Users/jairo880/AndroidStudioProjects/AppProspects-Android-Nativo/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.0/res/layout/abc_popup_menu_header_item_layout.xml"
-    },
-    {
         "merged": "/Users/jairo880/AndroidStudioProjects/AppProspects-Android-Nativo/app/build/intermediates/res/merged/debug/layout/activity_products.xml",
         "source": "/Users/jairo880/AndroidStudioProjects/AppProspects-Android-Nativo/app/src/main/res/layout/activity_products.xml"
+    },
+    {
+        "merged": "/Users/jairo880/AndroidStudioProjects/AppProspects-Android-Nativo/app/build/intermediates/res/merged/debug/layout/abc_popup_menu_header_item_layout.xml",
+        "source": "/Users/jairo880/AndroidStudioProjects/AppProspects-Android-Nativo/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.0/res/layout/abc_popup_menu_header_item_layout.xml"
     },
     {
         "merged": "/Users/jairo880/AndroidStudioProjects/AppProspects-Android-Nativo/app/build/intermediates/res/merged/debug/layout/abc_list_menu_item_icon.xml",
@@ -156,6 +156,10 @@
         "source": "/Users/jairo880/AndroidStudioProjects/AppProspects-Android-Nativo/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.0/res/layout/abc_action_mode_bar.xml"
     },
     {
+        "merged": "/Users/jairo880/AndroidStudioProjects/AppProspects-Android-Nativo/app/build/intermediates/res/merged/debug/layout/card_prospects.xml",
+        "source": "/Users/jairo880/AndroidStudioProjects/AppProspects-Android-Nativo/app/src/main/res/layout/card_prospects.xml"
+    },
+    {
         "merged": "/Users/jairo880/AndroidStudioProjects/AppProspects-Android-Nativo/app/build/intermediates/res/merged/debug/layout/support_simple_spinner_dropdown_item.xml",
         "source": "/Users/jairo880/AndroidStudioProjects/AppProspects-Android-Nativo/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.0/res/layout/support_simple_spinner_dropdown_item.xml"
     },
@@ -174,10 +178,6 @@
     {
         "merged": "/Users/jairo880/AndroidStudioProjects/AppProspects-Android-Nativo/app/build/intermediates/res/merged/debug/layout/select_dialog_singlechoice_material.xml",
         "source": "/Users/jairo880/AndroidStudioProjects/AppProspects-Android-Nativo/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.0/res/layout/select_dialog_singlechoice_material.xml"
-    },
-    {
-        "merged": "/Users/jairo880/AndroidStudioProjects/AppProspects-Android-Nativo/app/build/intermediates/res/merged/debug/layout/list_row.xml",
-        "source": "/Users/jairo880/AndroidStudioProjects/AppProspects-Android-Nativo/app/src/main/res/layout/list_row.xml"
     },
     {
         "merged": "/Users/jairo880/AndroidStudioProjects/AppProspects-Android-Nativo/app/build/intermediates/res/merged/debug/layout/abc_action_menu_item_layout.xml",

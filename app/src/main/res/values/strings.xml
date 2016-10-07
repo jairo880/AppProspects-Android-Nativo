@@ -34,5 +34,10 @@
     <string name="progress_dialog_login_tittle">Cargando...</string>
     <string name="progress_dialog_mesagge">Comprobando datos del usuario</string>
     <string name="progress_dialog_message_prospects_cierre_session">Cerrando la Sessiòn del usuario</string>
+    <string name="pending">Pendiente</string>
+    <string name="acepted">Aceptado</string>
+    <string name="aproved">Aprobado</string>
+    <string name="rejected">Rechazado</string>
+    <string name="inhabilit">Inhabilitado</string>
 
 </resources>

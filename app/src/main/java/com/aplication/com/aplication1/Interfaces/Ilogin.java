@@ -17,7 +17,6 @@ public interface Ilogin {
 
      void ValidarRegistrosPreferencias();
 
-     void Registrarse(View view);
 
      void showClient(Cliente cliente, String recordarUsuario);
 

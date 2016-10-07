@@ -90,25 +90,6 @@ public class LoginActivity extends AppCompatActivity implements Ilogin {
             }
         });
 
-        btnRegistrarse.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                RedirRegistro();
-            }
-        });
-
-    }
-
-    public void RedirRegistro() {
-
-        Intent intent = new Intent(getApplicationContext(), RegistrActivity.class);
-        startActivity(intent);
-
-    }
-
-    @Override
-    public void Registrarse(View view) {
-
     }
 
 

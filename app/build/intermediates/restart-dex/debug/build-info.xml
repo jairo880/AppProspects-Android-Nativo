@@ -4,33 +4,33 @@
     density="hdpi"
     format="8"
     plugin-version="2.2.0"
-    timestamp="23050097191272"
+    timestamp="2732863711828"
     token="3210015192617024023"
     verifier="FULL_BUILD_REQUESTED" >
 
     <task
         name="javac"
-        duration="1827" />
+        duration="0" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="1266" />
+        duration="0" />
     <task
         name="verifier"
-        duration="63" />
+        duration="0" />
 
     <artifact
         location="/Users/jairo880/AndroidStudioProjects/AppProspects-Android-Nativo/app/build/outputs/apk/app-debug.apk"
         type="MAIN" />
 
     <build
-        timestamp="23050097191272"
-        verifier="FULL_BUILD_REQUESTED" >
+        timestamp="26233710475497"
+        verifier="COMPATIBLE" >
         <artifact
-            location="/Users/jairo880/AndroidStudioProjects/AppProspects-Android-Nativo/app/build/outputs/apk/app-debug.apk"
-            type="MAIN" />
+            location="/Users/jairo880/AndroidStudioProjects/AppProspects-Android-Nativo/app/build/intermediates/instant-run-resources/resources-debug.ir.ap_"
+            type="RESOURCES" />
     </build>
 
 </instant-run>
